@@ -1,6 +1,7 @@
 # SmartBooksAR-ApplicationRepo
 Main repository for the SmartBooksAR application
 Resources:
+
 https://www.youtube.com/watch?v=R3OCUE9TwZk
 
 https://www.youtube.com/watch?v=gpaq5bAjya8
