@@ -12,19 +12,23 @@ public class StartUI : MonoBehaviour
     [SerializeField] Button balloonButton;
     [SerializeField] Button bridgeButton;
     [SerializeField] Button comparingAndOrderingButton;
+    [SerializeField] Button holeInTheWallButton;
+    [SerializeField] Button placeValueButton;
     [SerializeField] float transitionTime;
     [SerializeField] CanvasGroup canvasGroup;
     private float timeElapsed;
 
     private void Awake()
     {
-        Screen.orientation = ScreenOrientation.Portrait;
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
     void Start()
     {
         balloonButton.onClick.AddListener(StartBalloonScene);
         bridgeButton.onClick.AddListener(StartBridgeScene);
         comparingAndOrderingButton.onClick.AddListener(StartComparingAndOrderingScene);
+        holeInTheWallButton.onClick.AddListener(StartHoleInTheWallScene);
+        placeValueButton.onClick.AddListener(StartPlaceValueScene);
     }
     void StartBalloonScene() 
     {
@@ -38,9 +42,19 @@ public class StartUI : MonoBehaviour
     {
         StartCoroutine(ChangeSceneTransition(3));
     }
+    void StartHoleInTheWallScene() 
+    {
+        StartCoroutine(ChangeSceneTransition(4));
+    }
+    void StartPlaceValueScene() 
+    {
+        StartCoroutine(ChangeSceneTransition(5));
+    }
 
     IEnumerator ChangeSceneTransition(int sceneIndex) 
     {
+        canvasGroup.gameObject.SetActive(true);
+        canvasGroup.alpha = 0f;
         while (timeElapsed < transitionTime) 
         {
             canvasGroup.alpha = timeElapsed / transitionTime;

@@ -2016,7 +2016,6 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 72d444c041b5e7944b8b850f5f128f4c, type: 3}
     - {fileID: 21300000, guid: bb1a0f3898cb79d429d3f709bbaee777, type: 3}
     correctAnswerIndices: 0100000004000000080000000a000000
-  tilePointLight: {fileID: 0}
 --- !u!4 &1854390993
 Transform:
   m_ObjectHideFlags: 0
@@ -2307,7 +2306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2060391371
 MonoBehaviour:
   m_ObjectHideFlags: 0
