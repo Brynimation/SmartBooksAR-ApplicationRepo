@@ -12,7 +12,7 @@ public class UI : MonoBehaviour
     [SerializeField] Button restartButton;
     [SerializeField] Button quitButton;
     private int score;
-    CollisionDetection collisionDetection;
+    BalloonCollisionDetection collisionDetection;
     AnswerSpawner answerSpawner;
     private void SetScoreText(int score) 
     {
@@ -42,7 +42,7 @@ public class UI : MonoBehaviour
     {
         while (collisionDetection == null) 
         {
-            collisionDetection = FindObjectOfType<CollisionDetection>();
+            collisionDetection = FindObjectOfType<BalloonCollisionDetection>();
             yield return null;
         }
         Debug.Log("collision detection got!");

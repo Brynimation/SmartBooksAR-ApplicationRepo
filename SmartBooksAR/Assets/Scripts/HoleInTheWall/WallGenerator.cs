@@ -30,7 +30,7 @@ public class WallGenerator : MonoBehaviour
     ARFace ARFace;
     Renderer faceRenderer;
     int currentValueIndex;
-    WallSelection wallSelection;
+    WallCollisionDetection wallSelection;
     bool coroutineFinished;
 
     Camera cam;
@@ -93,7 +93,7 @@ public class WallGenerator : MonoBehaviour
 #endif
         while (wallSelection == null) 
         {
-            wallSelection = FindObjectOfType<WallSelection>();
+            wallSelection = FindObjectOfType<WallCollisionDetection>();
             yield return null;
         }
         OnDisplayMessage?.Invoke("");
@@ -135,7 +135,7 @@ public class WallGenerator : MonoBehaviour
             }
         }
         else {
-            wallSelection = FindObjectOfType<WallSelection>();
+            wallSelection = FindObjectOfType<WallCollisionDetection>();
         }
 
     }

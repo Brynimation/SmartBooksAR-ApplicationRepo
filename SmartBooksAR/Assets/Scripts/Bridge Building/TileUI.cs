@@ -27,7 +27,7 @@ public class TileUI : MonoBehaviour
     [SerializeField] Button RestartButton;
 
     TileGenerator tileGenerator;
-    TileDetection tileDetection;
+    TileCollisionDetection tileDetection;
     float remainingTimeToFade;
     bool findingTileDetection;
 
@@ -38,7 +38,7 @@ public class TileUI : MonoBehaviour
         while (tileDetection == null)
         {
             Debug.Log("In the loop!");
-            tileDetection = FindObjectOfType<TileDetection>();
+            tileDetection = FindObjectOfType<TileCollisionDetection>();
             yield return null;
         }
         Debug.Log("Tile detection found: " + tileDetection);

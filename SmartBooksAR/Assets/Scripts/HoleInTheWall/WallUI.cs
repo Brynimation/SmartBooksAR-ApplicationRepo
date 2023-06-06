@@ -32,7 +32,7 @@ public class WallUI : MonoBehaviour
 
 
 
-    WallSelection wallSelection;
+    WallCollisionDetection wallSelection;
     WallGenerator wallGenerator;
     float remainingTimeToFade = 0f;
     int score;
@@ -40,7 +40,7 @@ public class WallUI : MonoBehaviour
 
     void Awake()
     {
-        wallSelection = FindObjectOfType<WallSelection>();
+        wallSelection = FindObjectOfType<WallCollisionDetection>();
         wallGenerator = FindObjectOfType<WallGenerator>();
 
         wallGenerator.OnSpawnNewValues += UpdateValues;

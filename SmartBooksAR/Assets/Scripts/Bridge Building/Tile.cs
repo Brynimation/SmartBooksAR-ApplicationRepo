@@ -24,7 +24,7 @@ public class Tile : MonoBehaviour
 
     Material material;
     Renderer rend;
-    TileDetection tileDetection;
+    TileCollisionDetection tileDetection;
     float selectionTime;
 
     private void Awake()

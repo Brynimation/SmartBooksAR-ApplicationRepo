@@ -10,23 +10,14 @@ using UnityEngine.XR.ARFoundation;
 
 //This class is used to determine if there is a screen-space collision between the answers and the target positioned at the centre of the user's face.
 //This class is attached to the user's face renderer.
-public class CollisionDetection : MonoBehaviour
+public class BalloonCollisionDetection : CollisionDetection
 {
-    [SerializeField] LayerMask answerLayerMask;
-    public MeshRenderer mRenderer; 
     public GameObject correctAnswerSelectedExplosion;
     public GameObject incorrectAnswerSelectedExplosion;
-    private void Awake()
+    protected override void Select()
     {
-        mRenderer = GetComponent<MeshRenderer>();
-    }
-    void Update()
-    {
-        Vector3 centreScreenSpace = Camera.main.WorldToScreenPoint(mRenderer.bounds.center);
-        Ray ray = Camera.main.ScreenPointToRay(centreScreenSpace);
+        Ray ray = CastRayThroughBoundsCentre();
         RaycastHit hit;
-
-        
         //A spherecast acts like a "thick" raycast - we project a sphere with a radius equal to the radius of the target on the user's face along the ray.
         //If any answers collide with this projected sphere, then the answer is destroyed.
         if (Physics.SphereCast(ray, mRenderer.bounds.extents.magnitude/2f, out hit, answerLayerMask)) 
@@ -40,5 +31,9 @@ public class CollisionDetection : MonoBehaviour
             Destroy(hit.collider.gameObject);
         }
 
+    }
+    private void Update()
+    {
+        Select();
     }
 }

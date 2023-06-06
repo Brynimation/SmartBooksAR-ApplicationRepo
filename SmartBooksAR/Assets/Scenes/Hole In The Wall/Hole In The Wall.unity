@@ -899,7 +899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FacePrefab: {fileID: 5692810752495391040, guid: 8dd4c3040e3c1414a900bd4b2bbb5b60,
+  m_FacePrefab: {fileID: 5692810752495391040, guid: a88367ed81ec4f3438aa6a2bc04c7d31,
     type: 3}
   m_MaximumFaceCount: 1
 --- !u!1001 &640646472
@@ -2224,16 +2224,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2008079505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe31a7fa4d260fa42b1de010c6560c42, type: 3}
+  m_Script: {fileID: 11500000, guid: 7758245c98fee7841a3abcc4bbdd8812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   answerLayerMask:
     serializedVersion: 2
     m_Bits: 8
-  originalColour: {r: 0, g: 0, b: 0, a: 0}
-  selectedColour: {r: 0.0786757, g: 0.34691733, b: 0.9811321, a: 0.5019608}
-  mRenderer: {fileID: 0}
-  selectionTime: 0.25
+  selectedColour: {r: 0, g: 0.09174347, b: 1, a: 0.5019608}
+  selectionTime: 0.5
 --- !u!4 &2017192581 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 15167893660760848, guid: a25b6d6805d0b9945bced86cdad6912c,

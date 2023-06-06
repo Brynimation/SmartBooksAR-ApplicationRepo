@@ -8,15 +8,12 @@ using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
 
-//TO DO: This class is very similar to the CollisionDetection. Maybe they should both inherit from a more generic parent class.
-public class WallSelection : MonoBehaviour
+//TO DO: This class is very similar to the BalloonCollisionDetection. Maybe they should both inherit from a more generic parent class.
+public class WallCollisionDetection : CollisionDetection
 {
     public Action<float> OnUpdateTimeRemaining; //Event - invoked when the ui needs to display the current time remaining
 
-    [SerializeField] LayerMask answerLayerMask;
-    [SerializeField] Color originalColour;
     [SerializeField] Color selectedColour;
-    public MeshRenderer mRenderer;
     public float selectionTime;
 
     float remainingSelectionTime;
@@ -24,37 +21,19 @@ public class WallSelection : MonoBehaviour
     bool selected = false;
     WallGenerator wallGenerator;
 
-    private void Awake()
+    protected override void Awake()
     {
-        mRenderer = GetComponent<MeshRenderer>();
+        base.Awake();
         wallGenerator = FindObjectOfType<WallGenerator>();
         wallGenerator.OnSpawnNewValues += (int x, int y) => { selected = false; };
     }
-    private void Start()
-    {
-        remainingSelectionTime = selectionTime;
-    }
-
-
-    private void OnDestroy()
-    {
-        OnUpdateTimeRemaining?.Invoke(0f);
-        remainingSelectionTime = selectionTime;
-    }
-
-    private void OnDisable()
-    {
-        OnUpdateTimeRemaining?.Invoke(0f);
-        remainingSelectionTime = selectionTime;
-    }
-    void Update()
+    protected override void Select()
     {
         if (selected) return;
-        Vector3 centreScreenSpace = Camera.main.WorldToScreenPoint(mRenderer.bounds.center);
-        Ray ray = Camera.main.ScreenPointToRay(centreScreenSpace);
+        Ray ray = CastRayThroughBoundsCentre();
         RaycastHit hit;
 
-        //As with the CollisionDetection class, we use a spherecast to project a sphere along a ray, returning true if the sphere collides with anything.
+        //As with the BalloonCollisionDetection class, we use a spherecast to project a sphere along a ray, returning true if the sphere collides with anything.
         //This first if-statement is true when the user has just started selecting a wallPiece using their face
         if (Physics.SphereCast(ray, mRenderer.bounds.extents.magnitude / 2f, out hit, Mathf.Infinity, answerLayerMask) && !selecting)
         {
@@ -72,13 +51,31 @@ public class WallSelection : MonoBehaviour
                 WallPiece wallPiece = hit.collider.GetComponent<WallPiece>();
                 if (wallPiece != null)
                 {
-                    wallPiece.SetSelected(selectedColour); 
+                    wallPiece.SetSelected(selectedColour);
                     selecting = false;
                     selected = true;
                 }
 
             }
         }
+    }
+    private void Start()
+    {
+        remainingSelectionTime = selectionTime;
+    }
+    private void OnDestroy()
+    {
+        OnUpdateTimeRemaining?.Invoke(0f);
+        remainingSelectionTime = selectionTime;
+    }
+    private void OnDisable()
+    {
+        OnUpdateTimeRemaining?.Invoke(0f);
+        remainingSelectionTime = selectionTime;
+    }
+    void Update()
+    {
+        Select();
 
     }
 }

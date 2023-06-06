@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5692810752495391044}
   - component: {fileID: 5692810752495391042}
   - component: {fileID: 5692810752495391041}
-  - component: {fileID: -3266759033719451638}
+  - component: {fileID: -663047853642025436}
   m_Layer: 0
-  m_Name: AR Default Face
+  m_Name: AR Wall face
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-3266759033719451638
+--- !u!114 &-663047853642025436
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,13 +120,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5692810752495391040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3166b89bb83ffc469f62d7d30ca9863, type: 3}
+  m_Script: {fileID: 11500000, guid: 7758245c98fee7841a3abcc4bbdd8812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   answerLayerMask:
     serializedVersion: 2
     m_Bits: 8
-  correctAnswerSelectedExplosion: {fileID: 3257470939374002597, guid: 7ebe0604578b723418deef5d32beffa7,
-    type: 3}
-  incorrectAnswerSelectedExplosion: {fileID: 3257470939374002597, guid: 17894d8ae961bc8448c778dc0c5337a2,
-    type: 3}
+  selectedColour: {r: 0, g: 0.13331223, b: 1, a: 0}
+  selectionTime: 0.5
