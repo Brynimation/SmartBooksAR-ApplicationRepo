@@ -128,5 +128,5 @@ MonoBehaviour:
     m_Bits: 8
   correctAnswerSelectedExplosion: {fileID: 3257470939374002597, guid: 7ebe0604578b723418deef5d32beffa7,
     type: 3}
-  incorrectAnswerSelectedExplosion: {fileID: 3257470939374002597, guid: 17894d8ae961bc8448c778dc0c5337a2,
-    type: 3}
+  incorrectAnswerFadeColour: {r: 1, g: 0, b: 0, a: 0.5058824}
+  balloonFadeTime: 2

@@ -9,11 +9,15 @@ using Unity.VisualScripting;
 //This is just a basic navigation page. There is a button to each implemented game
 public class StartUI : MonoBehaviour
 {
+    [Header("Buttons")]
     [SerializeField] Button balloonButton;
     [SerializeField] Button bridgeButton;
     [SerializeField] Button comparingAndOrderingButton;
     [SerializeField] Button holeInTheWallButton;
     [SerializeField] Button placeValueButton;
+    [SerializeField] Button trueFalseButton;
+
+    [Header("Scene Transition")]
     [SerializeField] float transitionTime;
     [SerializeField] CanvasGroup canvasGroup;
     private float timeElapsed;
@@ -29,6 +33,7 @@ public class StartUI : MonoBehaviour
         comparingAndOrderingButton.onClick.AddListener(StartComparingAndOrderingScene);
         holeInTheWallButton.onClick.AddListener(StartHoleInTheWallScene);
         placeValueButton.onClick.AddListener(StartPlaceValueScene);
+        trueFalseButton.onClick.AddListener(StartTrueFalseScene);
     }
     void StartBalloonScene() 
     {
@@ -49,6 +54,10 @@ public class StartUI : MonoBehaviour
     void StartPlaceValueScene() 
     {
         StartCoroutine(ChangeSceneTransition(5));
+    }
+    void StartTrueFalseScene() 
+    {
+        StartCoroutine(ChangeSceneTransition(6));
     }
 
     IEnumerator ChangeSceneTransition(int sceneIndex) 

@@ -461,17 +461,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 396009589}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3604dec2495854d428b465fe28ae32d4, type: 3}
+  m_Script: {fileID: 11500000, guid: c3166b89bb83ffc469f62d7d30ca9863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   answerLayerMask:
     serializedVersion: 2
     m_Bits: 8
-  mRenderer: {fileID: 0}
   correctAnswerSelectedExplosion: {fileID: 3257470939374002597, guid: 7ebe0604578b723418deef5d32beffa7,
     type: 3}
-  incorrectAnswerSelectedExplosion: {fileID: 3257470939374002597, guid: 17894d8ae961bc8448c778dc0c5337a2,
-    type: 3}
+  incorrectAnswerFadeColour: {r: 1, g: 0, b: 0, a: 0.25490198}
+  balloonFadeTime: 2
 --- !u!1 &564069102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,7 +1112,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 525.96094, y: 3.5368986, z: -789.55164, w: -28.455437}
+  m_margin: {x: 302.83084, y: 3.5368986, z: -807.1872, w: -160.41898}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

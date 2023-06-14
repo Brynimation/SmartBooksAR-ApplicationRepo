@@ -25,10 +25,13 @@ public class PlaceValueController : MonoBehaviour
     public float minDistThreshold;
     [SerializeField] float changeColourTime;
     [SerializeField] Color selectedColour;
+    [SerializeField] Color incorrectColour;
+    [SerializeField] float incorrectFlashTime;
     [SerializeField] List<GameObject> prefabsToInstantiate;
     [SerializeField] List<PlaceValueQuestion> placeValueQuestions;
 
     Dictionary<string, Detector> arObjects = new Dictionary<string, Detector>();
+    List<ARTrackedImage> prevOrderedTrackables;
     List<ARTrackedImage> orderedTrackables;
 
     private ARTrackedImageManager imageManager;
@@ -46,7 +49,10 @@ public class PlaceValueController : MonoBehaviour
             arObjects.Add(currentPrefab.name, newARObject);
         }
         currentQuestionIndex = 0;
+      
         orderedTrackables = new List<ARTrackedImage>();
+        prevOrderedTrackables = new List<ARTrackedImage>();
+        prevOrderedTrackables.InsertRange(0, orderedTrackables);
     }
     IEnumerator DelayStart() 
     {
@@ -104,7 +110,7 @@ public class PlaceValueController : MonoBehaviour
             }
            
         }*/
-        UpdateARImages();
+        //UpdateARImages();
         foreach (ARTrackedImage trackedImage in eventArgs.removed) 
         {
             Debug.Log(trackedImage.referenceImage.name + " is removed");
@@ -147,27 +153,64 @@ public class PlaceValueController : MonoBehaviour
             for (int i = 0; i < orderedTrackables.Count; i++) 
             {
                 ARTrackedImage image = orderedTrackables[i];
-                Debug.Log(image.referenceImage.name);
             }
         }
-        bool correctOrder = checkNumberIsCorrect(orderedTrackables, placeValueQuestions[currentQuestionIndex].targetNumber, alreadyChecked);
-        if (correctOrder)
+
+        //Check that all the cards are close enough to each other for an answer to be registered
+        if (orderedTrackables.Count < 3) return;
+        //Debug.Log("current question index vs questions count: "+currentQuestionIndex + " " + placeValueQuestions.Count);
+        for (int i = 1; i < orderedTrackables.Count; i++) 
         {
-            for (int i = 1; i < orderedTrackables.Count; i++) 
+            //Debug.Log("ordered tracakbles index: " + i + " is: " + orderedTrackables[i]);
+            if (!ImagesAreCloseEnough(orderedTrackables[i - 1], orderedTrackables[i]))
             {
-                if (!ImagesAreCloseEnough(orderedTrackables[i - 1], orderedTrackables[i])) 
-                {
-                    return;
-                }
+                return;
             }
+        }
+        //If they're close enough, check they're in the correct order
+        bool correctOrder = checkNumberIsCorrect(orderedTrackables, placeValueQuestions[currentQuestionIndex].targetNumber, alreadyChecked);
+        if (correctOrder && !alreadyChecked)
+        {
+            Debug.Log("Here I am!");
             alreadyChecked = true;
             StartCoroutine(SpawnNextQuestion());
+
         }
-        else {
-            //Debug.Log("false");
+        else if(!alreadyChecked){
+            alreadyChecked = true;
+            StartCoroutine(IncorrectAnswerTransition());
         }
+        if (OrderChanged(orderedTrackables, prevOrderedTrackables)) 
+        {
+            alreadyChecked = false;
+        }
+        prevOrderedTrackables.Clear();
+        prevOrderedTrackables.InsertRange(0, orderedTrackables);
+
+    }
+    bool OrderChanged(List<ARTrackedImage> cur, List<ARTrackedImage> prev) 
+    {
+        if (cur == null || prev == null || cur.Count != prev.Count) return false;
+        for (int i = 0; i < cur.Count; i++) 
+        {
+            if (cur[i] != prev[i]) return true;
+        }
+        return false;
     }
 
+    IEnumerator IncorrectAnswerTransition() 
+    {
+        foreach (Detector detector in arObjects.Values)
+        {
+            detector.ChangeColour(incorrectColour, incorrectFlashTime);
+        }
+        yield return new WaitForSeconds(incorrectFlashTime);
+        foreach (Detector detector in arObjects.Values)
+        {
+            detector.ReturnToOriginalColour("");
+        }
+
+    }
     IEnumerator SpawnNextQuestion() 
     {
         yield return new WaitForSeconds(1f);
@@ -176,8 +219,8 @@ public class PlaceValueController : MonoBehaviour
             detector.ChangeColour(selectedColour, changeColourTime);
         }
         yield return new WaitForSeconds(changeColourTime);
-        alreadyChecked = false;
-        currentQuestionIndex++;
+        Debug.Log("this is also current question index: "+currentQuestionIndex);
+
         if (currentQuestionIndex >= placeValueQuestions.Count)
         {
             OnSpawnLargeText?.Invoke("Finished!");
@@ -185,6 +228,8 @@ public class PlaceValueController : MonoBehaviour
         }
         else 
         {
+            currentQuestionIndex++;
+            //Debug.Log("ELSE!");
             OnSpawnNextQuestion?.Invoke(placeValueQuestions[currentQuestionIndex].question);
         }
         
@@ -207,6 +252,6 @@ public class PlaceValueController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateARImages();
     }
 }

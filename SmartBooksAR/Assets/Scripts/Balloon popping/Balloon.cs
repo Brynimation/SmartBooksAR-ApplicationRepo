@@ -20,7 +20,9 @@ public class Balloon : MonoBehaviour
     public float yAmplitude;
     public float balloonMaxSpeed = 1f;
 
+    private Material material;
     private float currentXVelocity;
+    private bool selected;
     private float currentYVelocity;
     private bool collided = false;
     private static int totalBalloons = 0;
@@ -46,6 +48,7 @@ public class Balloon : MonoBehaviour
 #endif
 
         mRenderer = GetComponent<Renderer>();
+        material = mRenderer.material;
 #if UNITY_EDITOR
         faceRenderer = GameObject.FindGameObjectWithTag("Player").GetComponent<Renderer>();
 #endif
@@ -104,7 +107,24 @@ public class Balloon : MonoBehaviour
             rb.velocity = forceDir * 10f;
         }
     }
-
+    public void IncorrectAnswerFade(Color incorrectColour, float fadeTime) 
+    {
+        if (selected) return;
+        selected = true;
+        balloonMaxSpeed = 0f;
+        StartCoroutine(IncorrectAnswerFadeCoroutine(incorrectColour, fadeTime));
+    }
+    private IEnumerator IncorrectAnswerFadeCoroutine(Color incorrectColour, float fadeTime) 
+    {
+        Color originalColour = material.color;
+        float timeElapsed = 0f;
+        while (timeElapsed < fadeTime) 
+        {
+            material.color = Color.Lerp(originalColour, incorrectColour, timeElapsed / fadeTime);
+            timeElapsed += Time.deltaTime;
+            yield return null;
+        }
+    } 
 
     //These calculations are performed in FixedUpdate as they are physics calculations; we're manipulating a rigidbody.
     private void FixedUpdate()

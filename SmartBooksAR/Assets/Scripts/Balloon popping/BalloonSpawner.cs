@@ -12,6 +12,7 @@ public struct QuestionAnswer
     public List<string> answers;
     public List<int> correctAnswerIndices;
 }
+
 public class BalloonSpawner : MonoBehaviour
 {
     public float timePerQuestion;
@@ -49,6 +50,8 @@ public class BalloonSpawner : MonoBehaviour
         return (max - min).magnitude;
     }
 
+
+
     IEnumerator DelayStart()
     {
         //The code below searches for a face in the scene
@@ -60,7 +63,7 @@ public class BalloonSpawner : MonoBehaviour
         }
         faceRenderer = ARFace.GetComponent<Renderer>();
         //Tell the player to stand further back
-        OnSpawnNextQuestion?.Invoke("Move away from the camera");
+        OnSpawnNextQuestion?.Invoke("Place your phone down and move away from the camera");
 
         //Only start the game once the player is far enough away from the camera
         float faceScreenSize = GetScreenSpaceDiagonal(faceRenderer.bounds);

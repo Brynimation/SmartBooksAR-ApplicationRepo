@@ -13,7 +13,8 @@ using UnityEngine.XR.ARFoundation;
 public class BalloonCollisionDetection : CollisionDetection
 {
     public GameObject correctAnswerSelectedExplosion;
-    public GameObject incorrectAnswerSelectedExplosion;
+    public Color incorrectAnswerFadeColour;
+    public float balloonFadeTime;
     protected override void Select()
     {
         Ray ray = CastRayThroughBoundsCentre();
@@ -22,13 +23,23 @@ public class BalloonCollisionDetection : CollisionDetection
         //If any answers collide with this projected sphere, then the answer is destroyed.
         if (Physics.SphereCast(ray, mRenderer.bounds.extents.magnitude/2f, out hit, answerLayerMask)) 
         {
-            string name = hit.collider.gameObject.name;
-            string tag = hit.collider.tag;
+            GameObject hitGo = hit.collider.gameObject;
+            string name = hitGo.name;
+            string tag = hitGo.tag;
             int scoreChange = tag == "Correct" ? 1 : -1;
-            GameObject explosion = tag == "Correct" ? correctAnswerSelectedExplosion : incorrectAnswerSelectedExplosion;
-            Instantiate(explosion, hit.collider.transform.position, Quaternion.Euler(90f, 0f, 0f));
-            Balloon.OnDestroyBalloon?.Invoke(scoreChange);
-            Destroy(hit.collider.gameObject);
+            if (tag == "Correct")
+            {
+                Instantiate(correctAnswerSelectedExplosion, hitGo.transform.position, Quaternion.Euler(90f, 0f, 0f));
+                Balloon.OnDestroyBalloon?.Invoke(scoreChange);
+                Destroy(hitGo);
+            }
+            else {
+                Balloon incorrectBalloon = hitGo.GetComponent<Balloon>();
+                Balloon.OnDestroyBalloon?.Invoke(scoreChange);
+                incorrectBalloon.IncorrectAnswerFade(incorrectAnswerFadeColour, balloonFadeTime);
+            }
+
+
         }
 
     }

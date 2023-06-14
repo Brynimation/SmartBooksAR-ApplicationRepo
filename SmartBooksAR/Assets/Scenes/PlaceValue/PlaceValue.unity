@@ -1064,9 +1064,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63fc58f949557a489d06732f8976f09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistThreshold: 0.025
+  minDistThreshold: 0.005
   changeColourTime: 2
   selectedColour: {r: 0.16356993, g: 1, b: 0, a: 0.5019608}
+  incorrectColour: {r: 1, g: 0, b: 0, a: 0.50980395}
+  incorrectFlashTime: 1
   prefabsToInstantiate:
   - {fileID: 6064102642374863567, guid: be72ba5c8a6881945b463f9b025380d3, type: 3}
   - {fileID: 6296411782716055850, guid: 0bf267600f62f5a499bb297eba6b1575, type: 3}

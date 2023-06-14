@@ -4,7 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System;
+public class ObjectViewportSpace : MonoBehaviour 
+{
 
+}
 public class WallPiece : MonoBehaviour
 {
     public static Action<int> OnPieceSelected;
