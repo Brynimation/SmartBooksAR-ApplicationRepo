@@ -2231,7 +2231,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   selectedColour: {r: 0, g: 0.09174347, b: 1, a: 0.5019608}
-  selectionTime: 0.5
+  selectionTime: 0.25
 --- !u!4 &2017192581 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 15167893660760848, guid: a25b6d6805d0b9945bced86cdad6912c,
