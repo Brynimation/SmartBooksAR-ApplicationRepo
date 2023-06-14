@@ -79,6 +79,7 @@ public class SpawnAnswersInWorld : MonoBehaviour
     void SpawnAnswerInWorld(string answer, int index, List<int> correctIndices)
     {
         Vector3 pos = UnityEngine.Random.insideUnitSphere * spawnRadius;
+        pos.z = Mathf.Abs(pos.z);
         AnswerInWorld answerInWorld = Instantiate(answerPrefab, pos, Quaternion.identity);
         answerInWorld.gameObject.AddComponent<ARAnchor>();
         bool correct = correctIndices.Contains(index);
