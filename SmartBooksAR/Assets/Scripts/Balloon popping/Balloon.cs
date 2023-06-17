@@ -153,10 +153,7 @@ public class Balloon : MonoBehaviour
         if (screenPoint.y <= 0 || screenPoint.y >= Screen.height)
         {
             collided = true;
-            float dir = (screenPoint.x <= 0) ? 1f : -1f;
-#if !UNITY_EDITOR //accounting for values being flipped with the front facing camera
-                dir *= -1;
-#endif
+            float dir = (screenPoint.y <= 0) ? 1f : -1f;
             Vector3 vel = rb.velocity;
             vel.y = Mathf.SmoothDamp(vel.y, dir * 10f, ref currentXVelocity, 1f);
             rb.velocity = vel;

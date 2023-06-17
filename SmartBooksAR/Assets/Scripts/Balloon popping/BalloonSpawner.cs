@@ -32,7 +32,7 @@ public class BalloonSpawner : MonoBehaviour
 
     private void Awake()
     {
-        Screen.orientation = ScreenOrientation.Portrait;
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
     void Start()
     {
