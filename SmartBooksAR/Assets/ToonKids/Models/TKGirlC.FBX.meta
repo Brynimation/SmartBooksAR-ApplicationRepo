@@ -1,0 +1,1711 @@
+fileFormatVersion: 2
+guid: 9173ee6d760764744ade5e1fb74551ca
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: glasses
+  - first:
+      1: 100002
+    second: HEAD
+  - first:
+      1: 100004
+    second: ROOT
+  - first:
+      1: 100006
+    second: TK
+  - first:
+      1: 100008
+    second: TK Head
+  - first:
+      1: 100010
+    second: TK L Calf
+  - first:
+      1: 100012
+    second: TK L Clavicle
+  - first:
+      1: 100014
+    second: TK L Finger0
+  - first:
+      1: 100016
+    second: TK L Finger01
+  - first:
+      1: 100018
+    second: TK L Finger02
+  - first:
+      1: 100020
+    second: TK L Finger1
+  - first:
+      1: 100022
+    second: TK L Finger11
+  - first:
+      1: 100024
+    second: TK L Finger12
+  - first:
+      1: 100026
+    second: TK L Finger2
+  - first:
+      1: 100028
+    second: TK L Finger21
+  - first:
+      1: 100030
+    second: TK L Finger22
+  - first:
+      1: 100032
+    second: TK L Finger3
+  - first:
+      1: 100034
+    second: TK L Finger31
+  - first:
+      1: 100036
+    second: TK L Finger32
+  - first:
+      1: 100038
+    second: TK L Finger4
+  - first:
+      1: 100040
+    second: TK L Finger41
+  - first:
+      1: 100042
+    second: TK L Finger42
+  - first:
+      1: 100044
+    second: TK L Foot
+  - first:
+      1: 100046
+    second: TK L Forearm
+  - first:
+      1: 100048
+    second: TK L Hand
+  - first:
+      1: 100050
+    second: TK L Thigh
+  - first:
+      1: 100052
+    second: TK L Toe0
+  - first:
+      1: 100054
+    second: TK L UpperArm
+  - first:
+      1: 100056
+    second: TK Neck
+  - first:
+      1: 100058
+    second: TK Pelvis
+  - first:
+      1: 100060
+    second: TK R Calf
+  - first:
+      1: 100062
+    second: TK R Clavicle
+  - first:
+      1: 100064
+    second: TK R Finger0
+  - first:
+      1: 100066
+    second: TK R Finger01
+  - first:
+      1: 100068
+    second: TK R Finger02
+  - first:
+      1: 100070
+    second: TK R Finger1
+  - first:
+      1: 100072
+    second: TK R Finger11
+  - first:
+      1: 100074
+    second: TK R Finger12
+  - first:
+      1: 100076
+    second: TK R Finger2
+  - first:
+      1: 100078
+    second: TK R Finger21
+  - first:
+      1: 100080
+    second: TK R Finger22
+  - first:
+      1: 100082
+    second: TK R Finger3
+  - first:
+      1: 100084
+    second: TK R Finger31
+  - first:
+      1: 100086
+    second: TK R Finger32
+  - first:
+      1: 100088
+    second: TK R Finger4
+  - first:
+      1: 100090
+    second: TK R Finger41
+  - first:
+      1: 100092
+    second: TK R Finger42
+  - first:
+      1: 100094
+    second: TK R Foot
+  - first:
+      1: 100096
+    second: TK R Forearm
+  - first:
+      1: 100098
+    second: TK R Hand
+  - first:
+      1: 100100
+    second: TK R Thigh
+  - first:
+      1: 100102
+    second: TK R Toe0
+  - first:
+      1: 100104
+    second: TK R UpperArm
+  - first:
+      1: 100106
+    second: TK Spine
+  - first:
+      1: 100108
+    second: TK Spine1
+  - first:
+      1: 100110
+    second: TK Spine2
+  - first:
+      1: 100112
+    second: TKFeetA
+  - first:
+      1: 100114
+    second: TKFeetA2
+  - first:
+      1: 100116
+    second: TKFeetB
+  - first:
+      1: 100118
+    second: TKGDressL
+  - first:
+      1: 100120
+    second: TKGDressS
+  - first:
+      1: 100122
+    second: TKGFeetC
+  - first:
+      1: 100124
+    second: TKGHairA
+  - first:
+      1: 100126
+    second: TKGHairB
+  - first:
+      1: 100128
+    second: TKGHairC
+  - first:
+      1: 100130
+    second: TKGHairD
+  - first:
+      1: 100132
+    second: TKGHairE
+  - first:
+      1: 100134
+    second: TKGHairF
+  - first:
+      1: 100136
+    second: //RootNode
+  - first:
+      1: 100138
+    second: TKGLegsSKirt
+  - first:
+      1: 100140
+    second: TKLegsLA
+  - first:
+      1: 100142
+    second: TKLegsLB
+  - first:
+      1: 100144
+    second: TKLegsLC
+  - first:
+      1: 100146
+    second: TKLegsSA
+  - first:
+      1: 100148
+    second: TKLegsSB
+  - first:
+      1: 100150
+    second: TKShirtL
+  - first:
+      1: 100152
+    second: TKShirtS
+  - first:
+      1: 100154
+    second: TKSweeter
+  - first:
+      1: 100156
+    second: TKTshirtLA
+  - first:
+      1: 100158
+    second: TKTshirtLB
+  - first:
+      1: 100160
+    second: TKTshirtS
+  - first:
+      1: 100162
+    second: HatA
+  - first:
+      1: 100164
+    second: HatB
+  - first:
+      1: 100166
+    second: TKFeetAL
+  - first:
+      1: 100168
+    second: TKFeetAS
+  - first:
+      1: 100170
+    second: TKGLegsSkirt
+  - first:
+      1: 100172
+    second: HEADsimple
+  - first:
+      1: 100174
+    second: Glasses
+  - first:
+      1: 100176
+    second: TKSweater
+  - first:
+      4: 400000
+    second: glasses
+  - first:
+      4: 400002
+    second: HEAD
+  - first:
+      4: 400004
+    second: ROOT
+  - first:
+      4: 400006
+    second: TK
+  - first:
+      4: 400008
+    second: TK Head
+  - first:
+      4: 400010
+    second: TK L Calf
+  - first:
+      4: 400012
+    second: TK L Clavicle
+  - first:
+      4: 400014
+    second: TK L Finger0
+  - first:
+      4: 400016
+    second: TK L Finger01
+  - first:
+      4: 400018
+    second: TK L Finger02
+  - first:
+      4: 400020
+    second: TK L Finger1
+  - first:
+      4: 400022
+    second: TK L Finger11
+  - first:
+      4: 400024
+    second: TK L Finger12
+  - first:
+      4: 400026
+    second: TK L Finger2
+  - first:
+      4: 400028
+    second: TK L Finger21
+  - first:
+      4: 400030
+    second: TK L Finger22
+  - first:
+      4: 400032
+    second: TK L Finger3
+  - first:
+      4: 400034
+    second: TK L Finger31
+  - first:
+      4: 400036
+    second: TK L Finger32
+  - first:
+      4: 400038
+    second: TK L Finger4
+  - first:
+      4: 400040
+    second: TK L Finger41
+  - first:
+      4: 400042
+    second: TK L Finger42
+  - first:
+      4: 400044
+    second: TK L Foot
+  - first:
+      4: 400046
+    second: TK L Forearm
+  - first:
+      4: 400048
+    second: TK L Hand
+  - first:
+      4: 400050
+    second: TK L Thigh
+  - first:
+      4: 400052
+    second: TK L Toe0
+  - first:
+      4: 400054
+    second: TK L UpperArm
+  - first:
+      4: 400056
+    second: TK Neck
+  - first:
+      4: 400058
+    second: TK Pelvis
+  - first:
+      4: 400060
+    second: TK R Calf
+  - first:
+      4: 400062
+    second: TK R Clavicle
+  - first:
+      4: 400064
+    second: TK R Finger0
+  - first:
+      4: 400066
+    second: TK R Finger01
+  - first:
+      4: 400068
+    second: TK R Finger02
+  - first:
+      4: 400070
+    second: TK R Finger1
+  - first:
+      4: 400072
+    second: TK R Finger11
+  - first:
+      4: 400074
+    second: TK R Finger12
+  - first:
+      4: 400076
+    second: TK R Finger2
+  - first:
+      4: 400078
+    second: TK R Finger21
+  - first:
+      4: 400080
+    second: TK R Finger22
+  - first:
+      4: 400082
+    second: TK R Finger3
+  - first:
+      4: 400084
+    second: TK R Finger31
+  - first:
+      4: 400086
+    second: TK R Finger32
+  - first:
+      4: 400088
+    second: TK R Finger4
+  - first:
+      4: 400090
+    second: TK R Finger41
+  - first:
+      4: 400092
+    second: TK R Finger42
+  - first:
+      4: 400094
+    second: TK R Foot
+  - first:
+      4: 400096
+    second: TK R Forearm
+  - first:
+      4: 400098
+    second: TK R Hand
+  - first:
+      4: 400100
+    second: TK R Thigh
+  - first:
+      4: 400102
+    second: TK R Toe0
+  - first:
+      4: 400104
+    second: TK R UpperArm
+  - first:
+      4: 400106
+    second: TK Spine
+  - first:
+      4: 400108
+    second: TK Spine1
+  - first:
+      4: 400110
+    second: TK Spine2
+  - first:
+      4: 400112
+    second: TKFeetA
+  - first:
+      4: 400114
+    second: TKFeetA2
+  - first:
+      4: 400116
+    second: TKFeetB
+  - first:
+      4: 400118
+    second: TKGDressL
+  - first:
+      4: 400120
+    second: TKGDressS
+  - first:
+      4: 400122
+    second: TKGFeetC
+  - first:
+      4: 400124
+    second: TKGHairA
+  - first:
+      4: 400126
+    second: TKGHairB
+  - first:
+      4: 400128
+    second: TKGHairC
+  - first:
+      4: 400130
+    second: TKGHairD
+  - first:
+      4: 400132
+    second: TKGHairE
+  - first:
+      4: 400134
+    second: TKGHairF
+  - first:
+      4: 400136
+    second: //RootNode
+  - first:
+      4: 400138
+    second: TKGLegsSKirt
+  - first:
+      4: 400140
+    second: TKLegsLA
+  - first:
+      4: 400142
+    second: TKLegsLB
+  - first:
+      4: 400144
+    second: TKLegsLC
+  - first:
+      4: 400146
+    second: TKLegsSA
+  - first:
+      4: 400148
+    second: TKLegsSB
+  - first:
+      4: 400150
+    second: TKShirtL
+  - first:
+      4: 400152
+    second: TKShirtS
+  - first:
+      4: 400154
+    second: TKSweeter
+  - first:
+      4: 400156
+    second: TKTshirtLA
+  - first:
+      4: 400158
+    second: TKTshirtLB
+  - first:
+      4: 400160
+    second: TKTshirtS
+  - first:
+      4: 400162
+    second: HatA
+  - first:
+      4: 400164
+    second: HatB
+  - first:
+      4: 400166
+    second: TKFeetAL
+  - first:
+      4: 400168
+    second: TKFeetAS
+  - first:
+      4: 400170
+    second: TKGLegsSkirt
+  - first:
+      4: 400172
+    second: HEADsimple
+  - first:
+      4: 400174
+    second: Glasses
+  - first:
+      4: 400176
+    second: TKSweater
+  - first:
+      23: 2300000
+    second: glasses
+  - first:
+      23: 2300002
+    second: HatA
+  - first:
+      23: 2300004
+    second: HatB
+  - first:
+      23: 2300006
+    second: Glasses
+  - first:
+      33: 3300000
+    second: glasses
+  - first:
+      33: 3300002
+    second: HatA
+  - first:
+      33: 3300004
+    second: HatB
+  - first:
+      33: 3300006
+    second: Glasses
+  - first:
+      43: 4300000
+    second: glasses
+  - first:
+      43: 4300002
+    second: TKTshirtLA
+  - first:
+      43: 4300004
+    second: TKTshirtS
+  - first:
+      43: 4300006
+    second: TKTshirtLB
+  - first:
+      43: 4300008
+    second: TKShirtL
+  - first:
+      43: 4300010
+    second: TKSweeter
+  - first:
+      43: 4300012
+    second: TKGDressS
+  - first:
+      43: 4300014
+    second: TKShirtS
+  - first:
+      43: 4300016
+    second: TKLegsLA
+  - first:
+      43: 4300018
+    second: TKLegsSA
+  - first:
+      43: 4300020
+    second: TKLegsSB
+  - first:
+      43: 4300022
+    second: TKLegsLB
+  - first:
+      43: 4300024
+    second: TKLegsLC
+  - first:
+      43: 4300026
+    second: TKGLegsSKirt
+  - first:
+      43: 4300028
+    second: TKFeetA
+  - first:
+      43: 4300030
+    second: TKFeetA2
+  - first:
+      43: 4300032
+    second: TKFeetB
+  - first:
+      43: 4300034
+    second: TKGFeetC
+  - first:
+      43: 4300036
+    second: TKGDressL
+  - first:
+      43: 4300038
+    second: TKGHairB
+  - first:
+      43: 4300040
+    second: TKGHairC
+  - first:
+      43: 4300042
+    second: TKGHairD
+  - first:
+      43: 4300044
+    second: TKGHairE
+  - first:
+      43: 4300046
+    second: TKGHairF
+  - first:
+      43: 4300048
+    second: TKGHairA
+  - first:
+      43: 4300050
+    second: HEAD
+  - first:
+      43: 4300052
+    second: TKGLegsSkirt
+  - first:
+      43: 4300054
+    second: TKFeetAS
+  - first:
+      43: 4300056
+    second: TKFeetAL
+  - first:
+      43: 4300058
+    second: HatA
+  - first:
+      43: 4300060
+    second: HatB
+  - first:
+      43: 4300062
+    second: HEADsimple
+  - first:
+      43: 4300064
+    second: Glasses
+  - first:
+      43: 4300066
+    second: TKSweater
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: HEAD
+  - first:
+      137: 13700002
+    second: TKFeetA
+  - first:
+      137: 13700004
+    second: TKFeetA2
+  - first:
+      137: 13700006
+    second: TKFeetB
+  - first:
+      137: 13700008
+    second: TKGDressL
+  - first:
+      137: 13700010
+    second: TKGDressS
+  - first:
+      137: 13700012
+    second: TKGFeetC
+  - first:
+      137: 13700014
+    second: TKGHairA
+  - first:
+      137: 13700016
+    second: TKGHairB
+  - first:
+      137: 13700018
+    second: TKGHairC
+  - first:
+      137: 13700020
+    second: TKGHairD
+  - first:
+      137: 13700022
+    second: TKGHairE
+  - first:
+      137: 13700024
+    second: TKGHairF
+  - first:
+      137: 13700026
+    second: TKGLegsSKirt
+  - first:
+      137: 13700028
+    second: TKLegsLA
+  - first:
+      137: 13700030
+    second: TKLegsLB
+  - first:
+      137: 13700032
+    second: TKLegsLC
+  - first:
+      137: 13700034
+    second: TKLegsSA
+  - first:
+      137: 13700036
+    second: TKLegsSB
+  - first:
+      137: 13700038
+    second: TKShirtL
+  - first:
+      137: 13700040
+    second: TKShirtS
+  - first:
+      137: 13700042
+    second: TKSweeter
+  - first:
+      137: 13700044
+    second: TKTshirtLA
+  - first:
+      137: 13700046
+    second: TKTshirtLB
+  - first:
+      137: 13700048
+    second: TKTshirtS
+  - first:
+      137: 13700050
+    second: TKFeetAL
+  - first:
+      137: 13700052
+    second: TKFeetAS
+  - first:
+      137: 13700054
+    second: TKGLegsSkirt
+  - first:
+      137: 13700056
+    second: HatA
+  - first:
+      137: 13700058
+    second: HatB
+  - first:
+      137: 13700060
+    second: HEADsimple
+  - first:
+      137: 13700062
+    second: TKSweater
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 - Default
+    second: {fileID: 2100000, guid: f1310073d2167a646b3dc07c10bdd46d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 - Default
+    second: {fileID: 2100000, guid: 13a4bf0a194e8f64f8bc1006b2c22b27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #530
+    second: {fileID: 2100000, guid: 63c47c8f7f387974a994f3c52efeb4ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKBoyA
+    second: {fileID: 2100000, guid: 785294c6cae12e74b9783f0680d875fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKBoyA01
+    second: {fileID: 2100000, guid: 977c9d156461cfb4ba4eb9ac585fb83a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKBoyB
+    second: {fileID: 2100000, guid: 1a9f3bf0aafa9a54abbe4889b86200d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKGHairA01
+    second: {fileID: 2100000, guid: 12864712e773d9745959e028b7695f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKGHairB01
+    second: {fileID: 2100000, guid: 53668cc890b7b8249b604dc0acbc0c95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKGHairC01
+    second: {fileID: 2100000, guid: 44ace342e741f4447afaad707bcdf863, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKGHairD01
+    second: {fileID: 2100000, guid: 564794ef5549e0c4a839694dabbcb39b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKGHairE01
+    second: {fileID: 2100000, guid: 13a4bf0a194e8f64f8bc1006b2c22b27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKGHairG
+    second: {fileID: 2100000, guid: 1d2a06cab77760e45b09085fa00dec37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKGirlA01
+    second: {fileID: 2100000, guid: 977c9d156461cfb4ba4eb9ac585fb83a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKGirlC01
+    second: {fileID: 2100000, guid: 1a9f3bf0aafa9a54abbe4889b86200d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKHairF01
+    second: {fileID: 2100000, guid: 491d8224afb7f7547995a69e41c46f22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKeyebrows
+    second: {fileID: 2100000, guid: f95a65c7087a3ab4e8d1eb2c33b38cd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKteeth01
+    second: {fileID: 2100000, guid: 0b2166dd8496fbc4cb471b1492cb21d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chestA
+    second: {fileID: 2100000, guid: 4deec1da444d03a45bf0f784f20d8909, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chestB
+    second: {fileID: 2100000, guid: d900eb163c22b224ca8198f50f49b459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chestC
+    second: {fileID: 2100000, guid: 21012938a26eb184b84ae82bc2ed3ad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chestD
+    second: {fileID: 2100000, guid: d49c8ee6c849fcd4c98a4e78d7dae02b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye1
+    second: {fileID: 2100000, guid: a5288ede92b42cd44b29a92d459c45d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: feetA
+    second: {fileID: 2100000, guid: d27d81275266470428c2fdfebbf9b07e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: feetB
+    second: {fileID: 2100000, guid: 629dfc3c1769e1d43a0383077ab52b0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: feetC
+    second: {fileID: 2100000, guid: 14e22e01db5b88448a2c21fcb913f536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glasses01
+    second: {fileID: 2100000, guid: 4d1bcb10f6e1a78448b6af31747a1d1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glassesA01
+    second: {fileID: 2100000, guid: 18f266d7c3666c748aa683438a560829, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hat1
+    second: {fileID: 2100000, guid: abf9270382fcf5d419ea0dda9ca8240d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hatA01
+    second: {fileID: 2100000, guid: 0d7ab664c4f4baf4388e83b4a103feff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: legs
+    second: {fileID: 2100000, guid: a3eebf9b617efb1429298d010fc8f5b1, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 0
+    normalSmoothingSource: 1
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: TK
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger02
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger12
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger22
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger32
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK L Finger42
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger02
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger12
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger32
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK R Finger42
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TK Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: TKavatar(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.000000621085, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BODY
+      parentName: TKavatar(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 0.54405, y: 0.54405, z: 0.54405}
+    - name: HEAD
+      parentName: TKavatar(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ROOT
+      parentName: TKavatar(Clone)
+      position: {x: -0, y: 0, z: 0.000000019073486}
+      rotation: {x: -0.0000000059624403, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TK
+      parentName: ROOT
+      position: {x: -0, y: 0.36341816, z: 0.00021648526}
+      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TK Pelvis
+      parentName: TK
+      position: {x: -1.3096724e-10, y: 0, z: 0.010903001}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TK L Thigh
+      parentName: TK Pelvis
+      position: {x: 0.000000076293944, y: 0.00000007595867, z: 0.043306}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.0000012}
+    - name: TK L Calf
+      parentName: TK L Thigh
+      position: {x: -0.15540668, y: -3.7252902e-11, z: -0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: TK L Foot
+      parentName: TK L Calf
+      position: {x: -0.15540668, y: -1.8626451e-11, z: 0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: TK L Toe0
+      parentName: TK L Foot
+      position: {x: -0.05260493, y: 0.056392726, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.000001}
+    - name: TK R Thigh
+      parentName: TK Pelvis
+      position: {x: -0.000000076293944, y: -0.00000004418194, z: -0.043306}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TK R Calf
+      parentName: TK R Thigh
+      position: {x: -0.15540676, y: 3.7252902e-11, z: 0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.000001, z: 1.0000004}
+    - name: TK R Foot
+      parentName: TK R Calf
+      position: {x: -0.15540668, y: -1.8626451e-11, z: -0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 0.9999996, z: 0.99999964}
+    - name: TK R Toe0
+      parentName: TK R Foot
+      position: {x: -0.05260493, y: 0.05639273, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000008, y: 1, z: 1.0000008}
+    - name: TK Spine
+      parentName: TK Pelvis
+      position: {x: -0.038916968, y: -0.000047458838, z: 0.000000054035844}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
+    - name: TK Spine1
+      parentName: TK Spine
+      position: {x: -0.059623145, y: -0.000052988453, z: -1.469688e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: TK Spine2
+      parentName: TK Spine1
+      position: {x: -0.06654545, y: -0.00006375432, z: -1.7682907e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: TK L Clavicle
+      parentName: TK Spine2
+      position: {x: -0.045942765, y: -0.010809323, z: 0.017657325}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1.0000004, y: 1.0000011, z: 1.0000008}
+    - name: TK L UpperArm
+      parentName: TK L Clavicle
+      position: {x: -0.037270427, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000007}
+    - name: TK L Forearm
+      parentName: TK L UpperArm
+      position: {x: -0.10041896, y: -0.0000000011920929, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000008, z: 1.0000006}
+    - name: TK L Hand
+      parentName: TK L Forearm
+      position: {x: -0.10041892, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999976}
+    - name: TK L Finger0
+      parentName: TK L Hand
+      position: {x: -0.0044952924, y: 0.005768663, z: -0.023464736}
+      rotation: {x: -0.6532813, y: 0.27059805, z: -0.2705983, w: -0.6532815}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: TK L Finger01
+      parentName: TK L Finger0
+      position: {x: -0.029861487, y: 0, z: -0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000014, z: 1.0000002}
+    - name: TK L Finger02
+      parentName: TK L Finger01
+      position: {x: -0.015880203, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999976}
+    - name: TK L Finger1
+      parentName: TK L Hand
+      position: {x: -0.049636174, y: -0.0006688309, z: -0.01957548}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.000001}
+    - name: TK L Finger11
+      parentName: TK L Finger1
+      position: {x: -0.016232396, y: 0, z: -0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000007}
+    - name: TK L Finger12
+      parentName: TK L Finger11
+      position: {x: -0.016232405, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000005}
+    - name: TK L Finger2
+      parentName: TK L Hand
+      position: {x: -0.05215307, y: -0.002223587, z: -0.003925266}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1.0000004}
+    - name: TK L Finger21
+      parentName: TK L Finger2
+      position: {x: -0.016239747, y: 0, z: 0.000000028610229}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000001}
+    - name: TK L Finger22
+      parentName: TK L Finger21
+      position: {x: -0.01623972, y: 0, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: TK L Finger3
+      parentName: TK L Hand
+      position: {x: -0.05050394, y: 0.00035362242, z: 0.010923901}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: TK L Finger31
+      parentName: TK L Finger3
+      position: {x: -0.016392898, y: 0.000000038146972, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000008}
+    - name: TK L Finger32
+      parentName: TK L Finger31
+      position: {x: -0.01639284, y: -0.000000076293944, z: -0.000000028610229}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000002}
+    - name: TK L Finger4
+      parentName: TK L Hand
+      position: {x: -0.046769753, y: 0.0087749865, z: 0.020925693}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000005}
+    - name: TK L Finger41
+      parentName: TK L Finger4
+      position: {x: -0.014673423, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000007, z: 1.0000005}
+    - name: TK L Finger42
+      parentName: TK L Finger41
+      position: {x: -0.014673423, y: 0.000000038146972, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000006, z: 1.0000007}
+    - name: TK Neck
+      parentName: TK Spine2
+      position: {x: -0.08007072, y: -0.006433805, z: 0.0000000022310813}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.000001}
+    - name: TK Head
+      parentName: TK Neck
+      position: {x: -0.035589065, y: 0.000000009536743, z: 1.8189894e-14}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999997}
+    - name: TK R Clavicle
+      parentName: TK Spine2
+      position: {x: -0.045942765, y: -0.010809195, z: -0.017683621}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000013, y: 1.0000011, z: 1.0000007}
+    - name: TK R UpperArm
+      parentName: TK R Clavicle
+      position: {x: -0.03727042, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 0.9999995, z: 0.99999964}
+    - name: TK R Forearm
+      parentName: TK R UpperArm
+      position: {x: -0.10041896, y: -0.0000000011920929, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000014, y: 1.0000008, z: 1.0000002}
+    - name: TK R Hand
+      parentName: TK R Forearm
+      position: {x: -0.100418925, y: -0.000000009536743, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1.0000008, z: 1.0000001}
+    - name: TK R Finger0
+      parentName: TK R Hand
+      position: {x: -0.0044970065, y: 0.0057706563, z: 0.023467327}
+      rotation: {x: -0.65328145, y: 0.27059823, z: 0.27059788, w: 0.65328157}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000006}
+    - name: TK R Finger01
+      parentName: TK R Finger0
+      position: {x: -0.029861487, y: 0, z: -0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1.0000012, z: 1.0000011}
+    - name: TK R Finger02
+      parentName: TK R Finger01
+      position: {x: -0.015880222, y: 0, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000007}
+    - name: TK R Finger1
+      parentName: TK R Hand
+      position: {x: -0.049636174, y: -0.0006687927, z: 0.01957548}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000011, y: 1.0000008, z: 1.0000001}
+    - name: TK R Finger11
+      parentName: TK R Finger1
+      position: {x: -0.016232396, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000002}
+    - name: TK R Finger12
+      parentName: TK R Finger11
+      position: {x: -0.016232396, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: TK R Finger2
+      parentName: TK R Hand
+      position: {x: -0.052153092, y: -0.002223549, z: 0.003925266}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1, z: 1.0000002}
+    - name: TK R Finger21
+      parentName: TK R Finger2
+      position: {x: -0.016239766, y: 0.000000038146972, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000006, z: 1.0000001}
+    - name: TK R Finger22
+      parentName: TK R Finger21
+      position: {x: -0.016239738, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000002}
+    - name: TK R Finger3
+      parentName: TK R Hand
+      position: {x: -0.05050394, y: 0.00035366058, z: -0.01092391}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000002}
+    - name: TK R Finger31
+      parentName: TK R Finger3
+      position: {x: -0.016392898, y: 0.000000076293944, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.0000008, z: 1}
+    - name: TK R Finger32
+      parentName: TK R Finger31
+      position: {x: -0.01639286, y: -0.000000114440915, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999964, y: 0.99999976, z: 1.0000001}
+    - name: TK R Finger4
+      parentName: TK R Hand
+      position: {x: -0.04676973, y: 0.008775025, z: -0.020925712}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000002}
+    - name: TK R Finger41
+      parentName: TK R Finger4
+      position: {x: -0.014673443, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999997}
+    - name: TK R Finger42
+      parentName: TK R Finger41
+      position: {x: -0.014673443, y: 0, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.000001, y: 1.0000007, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 46ed376abb7e55e44bcb3e6409ec1e1c,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
