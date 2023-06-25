@@ -28,10 +28,12 @@ public class WorldAnswerSelection : MonoBehaviour
                 if(Physics.Raycast(ray, out hit, Mathf.Infinity, answerLayerMask))
                 {
                     AnswerInWorld answer = hit.collider.GetComponent<AnswerInWorld>();
+                    DragonController dragon = answer.transform.parent.GetComponent<DragonController>();
                     if (answer != null) 
                     {
                         answer.SetSelected();
                         OnSelectAnswer?.Invoke(answer.Correct);
+                        dragon.SetSelected(answer.Correct);
                     }
                 }
             }

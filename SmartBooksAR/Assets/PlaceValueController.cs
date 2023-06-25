@@ -22,6 +22,7 @@ public class PlaceValueController : MonoBehaviour
 
     public Action<string> OnSpawnNextQuestion;
     public Action<string> OnSpawnLargeText;
+    public Action<int> OnSelectAnswer;
     public float minDistThreshold;
     [SerializeField] float changeColourTime;
     [SerializeField] Color selectedColour;
@@ -29,6 +30,9 @@ public class PlaceValueController : MonoBehaviour
     [SerializeField] float incorrectFlashTime;
     [SerializeField] List<GameObject> prefabsToInstantiate;
     [SerializeField] List<PlaceValueQuestion> placeValueQuestions;
+    [SerializeField] CelebrationDragonController celebrationDragon;
+    [SerializeField] GameObject dragonInstantiationExplosion;
+    
 
     Dictionary<string, Detector> arObjects = new Dictionary<string, Detector>();
     List<ARTrackedImage> prevOrderedTrackables;
@@ -200,6 +204,7 @@ public class PlaceValueController : MonoBehaviour
 
     IEnumerator IncorrectAnswerTransition() 
     {
+        OnSelectAnswer?.Invoke(-1);
         foreach (Detector detector in arObjects.Values)
         {
             detector.ChangeColour(incorrectColour, incorrectFlashTime);
@@ -211,8 +216,13 @@ public class PlaceValueController : MonoBehaviour
         }
 
     }
+    public void InvokeSpawnNextQuestionEvent() 
+    {
+        OnSpawnNextQuestion?.Invoke(placeValueQuestions[currentQuestionIndex].question);
+    }
     IEnumerator SpawnNextQuestion() 
     {
+        OnSelectAnswer?.Invoke(1);
         yield return new WaitForSeconds(1f);
         foreach (Detector detector in arObjects.Values) 
         {
@@ -220,7 +230,7 @@ public class PlaceValueController : MonoBehaviour
         }
         yield return new WaitForSeconds(changeColourTime);
         Debug.Log("this is also current question index: "+currentQuestionIndex);
-
+        currentQuestionIndex++;
         if (currentQuestionIndex >= placeValueQuestions.Count)
         {
             OnSpawnLargeText?.Invoke("Finished!");
@@ -228,9 +238,15 @@ public class PlaceValueController : MonoBehaviour
         }
         else 
         {
-            currentQuestionIndex++;
             //Debug.Log("ELSE!");
-            OnSpawnNextQuestion?.Invoke(placeValueQuestions[currentQuestionIndex].question);
+            CelebrationDragonController dragon = Instantiate(celebrationDragon, orderedTrackables[1].gameObject.transform.position, Quaternion.identity).GetComponent<CelebrationDragonController>();
+            GameObject confettiExplosion = Instantiate(dragonInstantiationExplosion, dragon.transform.position, Quaternion.identity);
+            confettiExplosion.transform.localScale = Vector3.one * 0.2f;
+            yield return new WaitForSeconds(2f);
+            dragon.Jump();
+            yield return new WaitForSeconds(2f);
+            dragon.SetSelected();
+            InvokeSpawnNextQuestionEvent();
         }
         
     }

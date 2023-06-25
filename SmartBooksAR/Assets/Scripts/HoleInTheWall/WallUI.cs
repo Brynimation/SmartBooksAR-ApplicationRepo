@@ -56,11 +56,11 @@ public class WallUI : MonoBehaviour
 
     void Restart() 
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     void Quit() 
     {
-        Application.Quit();
+        SceneManager.LoadScene(2);
     }
     void UpdateValues(int target, int current) 
     {
@@ -124,9 +124,4 @@ public class WallUI : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

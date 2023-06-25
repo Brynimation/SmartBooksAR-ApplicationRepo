@@ -11,15 +11,18 @@ public class StartUI : MonoBehaviour
 {
     [Header("Buttons")]
     [SerializeField] Button balloonButton;
-    [SerializeField] Button bridgeButton;
     [SerializeField] Button comparingAndOrderingButton;
     [SerializeField] Button holeInTheWallButton;
     [SerializeField] Button placeValueButton;
     [SerializeField] Button trueFalseButton;
+    [SerializeField] Button homeButton;
 
     [Header("Scene Transition")]
     [SerializeField] float transitionTime;
     [SerializeField] CanvasGroup canvasGroup;
+
+    [SerializeField] GameObject quitPanel;
+    
     private float timeElapsed;
 
     private void Awake()
@@ -29,15 +32,16 @@ public class StartUI : MonoBehaviour
     void Start()
     {
         balloonButton.onClick.AddListener(StartBalloonScene);
-        bridgeButton.onClick.AddListener(StartBridgeScene);
+        //bridgeButton.onClick.AddListener(StartBridgeScene);
         comparingAndOrderingButton.onClick.AddListener(StartComparingAndOrderingScene);
         holeInTheWallButton.onClick.AddListener(StartHoleInTheWallScene);
         placeValueButton.onClick.AddListener(StartPlaceValueScene);
         trueFalseButton.onClick.AddListener(StartTrueFalseScene);
+        homeButton.onClick.AddListener(() => quitPanel.gameObject.SetActive(true));
     }
     void StartBalloonScene() 
     {
-        StartCoroutine(ChangeSceneTransition(1));
+        StartCoroutine(ChangeSceneTransition(3));
     }
     void StartBridgeScene() 
     {
@@ -45,19 +49,19 @@ public class StartUI : MonoBehaviour
     }
     void StartComparingAndOrderingScene() 
     {
-        StartCoroutine(ChangeSceneTransition(3));
+        StartCoroutine(ChangeSceneTransition(4));
     }
     void StartHoleInTheWallScene() 
     {
-        StartCoroutine(ChangeSceneTransition(4));
+        StartCoroutine(ChangeSceneTransition(5));
     }
     void StartPlaceValueScene() 
     {
-        StartCoroutine(ChangeSceneTransition(5));
+        StartCoroutine(ChangeSceneTransition(6));
     }
     void StartTrueFalseScene() 
     {
-        StartCoroutine(ChangeSceneTransition(6));
+        StartCoroutine(ChangeSceneTransition(7));
     }
 
     IEnumerator ChangeSceneTransition(int sceneIndex) 

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 
 namespace ToonKids
@@ -62,7 +63,7 @@ namespace ToonKids
                 {
                     GOHeads[forAUX].GetComponent<SkinnedMeshRenderer>().SetBlendShapeWeight(blendshapesnumber - 1, 0f);
                 }
-                UnityEditor.EditorApplication.isPlaying = false;
+                //EditorApplication.isPlaying = false;
 
                 Application.Quit();
             }

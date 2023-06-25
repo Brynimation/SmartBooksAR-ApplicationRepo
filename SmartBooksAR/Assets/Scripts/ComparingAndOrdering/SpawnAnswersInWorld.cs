@@ -15,6 +15,7 @@ public class SpawnAnswersInWorld : MonoBehaviour
 
     [SerializeField] AnswerInWorld answerPrefab;
     [SerializeField] List<QuestionAnswer> questionAnswers;
+    [SerializeField] List<GameObject> dragonsToSpawn;
     [SerializeField] float spawnRadius;
 
     private int currentQuestionIndex;
@@ -53,9 +54,14 @@ public class SpawnAnswersInWorld : MonoBehaviour
 
         //If we've reached the end of the list
         AnswerInWorld[] previousAnswers = FindObjectsOfType<AnswerInWorld>();
+        DragonController[] previousDragons = FindObjectsOfType<DragonController>();
         foreach (AnswerInWorld answer in previousAnswers)
         {
             Destroy(answer.gameObject);
+        }
+        foreach (DragonController dragon in previousDragons) 
+        {
+            Destroy(dragon.gameObject); 
         }
         List<string> answers = questionAnswers[currentQuestionIndex].answers;
         List<int> correctIndices = questionAnswers[currentQuestionIndex].correctAnswerIndices;
@@ -81,7 +87,10 @@ public class SpawnAnswersInWorld : MonoBehaviour
         Vector3 pos = UnityEngine.Random.insideUnitSphere * spawnRadius;
         pos.z = Mathf.Abs(pos.z);
         AnswerInWorld answerInWorld = Instantiate(answerPrefab, pos, Quaternion.identity);
-        answerInWorld.gameObject.AddComponent<ARAnchor>();
+        GameObject dragon = Instantiate(dragonsToSpawn[index % dragonsToSpawn.Count],pos, Quaternion.identity);
+        dragon.gameObject.AddComponent<ARAnchor>();
+        answerInWorld.transform.SetParent(dragon.transform);
+        answerInWorld.transform.position += answerInWorld.transform.forward * 0.1f;
         bool correct = correctIndices.Contains(index);
         answerInWorld.InitialiseAnswer(answer, correct);
     }
@@ -89,7 +98,7 @@ public class SpawnAnswersInWorld : MonoBehaviour
     {
         OnDisplayLargeText?.Invoke("Well done!", 2.5f);
         yield return new WaitForSeconds(2.5f);
-        OnDisplayLargeText?.Invoke("All correct answers selected!", 2.5f);
+        OnDisplayLargeText?.Invoke("All correct answers found!", 2.5f);
         yield return new WaitForSeconds(2.5f);
         if (currentQuestionIndex == questionAnswers.Count)
         {

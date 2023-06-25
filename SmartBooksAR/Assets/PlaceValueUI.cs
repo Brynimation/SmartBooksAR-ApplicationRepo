@@ -8,6 +8,7 @@ public class PlaceValueUI : MonoBehaviour
 {
     [Header("Text")]
     [SerializeField] TMP_Text questionText;
+    [SerializeField] TMP_Text scoreText;
     [Header("Large Text")]
     [SerializeField] TMP_Text largeText;
     [SerializeField] CanvasGroup largeTextCG;
@@ -18,21 +19,24 @@ public class PlaceValueUI : MonoBehaviour
     [SerializeField] Button restartButton;
     [SerializeField] Button quitButton;
     PlaceValueController placeValueController;
+
+    int score;
     void Awake()
     {
         placeValueController= FindObjectOfType<PlaceValueController>();
         placeValueController.OnSpawnNextQuestion += SetQuestionText;
         placeValueController.OnSpawnLargeText += SetLargeText;
+        placeValueController.OnSelectAnswer += SetScoreText;
         restartButton.onClick.AddListener(Restart);
         quitButton.onClick.AddListener(Quit);
     }
-    void Restart() 
+    private void Restart()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     private void Quit()
     {
-        Application.Quit();
+        SceneManager.LoadScene(2);
     }
     void SetLargeText(string text) 
     {
@@ -43,6 +47,11 @@ public class PlaceValueUI : MonoBehaviour
     {
         questionText.SetText(question);
         StartFlashScreenFade();
+    }
+    void SetScoreText(int scoreChange) 
+    {
+        score += scoreChange;
+        scoreText.SetText("Score: " + score);
     }
 
     void StartFlashScreenFade() 

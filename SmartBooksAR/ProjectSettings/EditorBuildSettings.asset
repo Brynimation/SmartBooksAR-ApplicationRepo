@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/HomePage/Home.unity
     guid: a16dddce994028645972a1d97e0642ee
   - enabled: 1
+    path: Assets/Scenes/HomePage/Mode Select.unity
+    guid: 132b93d2fde39d34c9104efd58541d62
+  - enabled: 1
     path: Assets/Scenes/Start/Start.unity
     guid: 29e6f6e8e30d4da4c8eb1e61a1cbc32d
   - enabled: 1
     path: Assets/Scenes/Balloon Popping/Balloon Popping.unity
     guid: 7f96bb57e17e58444bd5b5573995e26f
-  - enabled: 1
-    path: Assets/Scenes/BridgeBuilding/BridgeBuilding.unity
-    guid: d96137f47a9cfac4a89613a486cf1340
   - enabled: 1
     path: Assets/Scenes/Comparing and Ordering/Comparing And Ordering.unity
     guid: 8c60d259c48657e4fb601ea86c4e95a2

@@ -12,25 +12,33 @@ public class ComparingAndOrderingUI : MonoBehaviour
     
     [Header("Text")]
     [SerializeField] TMP_Text questionText;
-    [SerializeField] TMP_Text collectedAnswersText;
     [SerializeField] TMP_Text scoreText;
 
     [Header("Button")]
     [SerializeField] Button quitButton;
     [SerializeField] Button restartButton;
+    [SerializeField] Button testButton;
 
     [Header("Large Text")]
     [SerializeField] CanvasGroup largeTextCG;
     [SerializeField] TMP_Text largeText;
 
+    [Header("Star")]
+    [SerializeField] CollectedNumber collectedNumberPrefab;
+    [SerializeField] GameObject starExplosion;
+    [SerializeField] Transform startPositionT;
+    int collectedNumberIndex;
 
+    Canvas canvas;
+    List<CollectedNumber> collectedNumbers;
     SpawnAnswersInWorld answerSpawner;
     WorldAnswerSelection answerSelector;
-    bool firstCollected = false;
+    bool firstCollected = true;
     private int score = 0;
     private void Awake()
     {
-        Screen.orientation = ScreenOrientation.Portrait;
+        canvas = GetComponent<Canvas>();
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
         largeTextCG.gameObject.SetActive(false);
 
         restartButton.onClick.AddListener(Restart);
@@ -44,26 +52,42 @@ public class ComparingAndOrderingUI : MonoBehaviour
         answerSelector.OnSelectAnswer += UpdateScore;
         AnswerInWorld.OnSelectAnswer += UpdateCollectedNumbers;
 
-        scoreText.SetText("Score: 0");
-        collectedAnswersText.SetText("Collected:");
+        scoreText.SetText("0");
+        //testButton.onClick.AddListener(TestButton);
 
     }
 
+    void TestButton() 
+    {
+        UpdateCollectedNumbers(true, Random.Range(0, 20));
+    }
+
     //When a correct number is selected, the OnSelectAnswer static event is invoked. This tells the UI to display that number at the bottom of the screen
-    private void UpdateCollectedNumbers(bool correct, int value) 
+    private void UpdateCollectedNumbers(bool correct, int value)
     {
         if (!correct) return;
-        string collectedAnswers = collectedAnswersText.text;
-        if (!firstCollected)
+        Vector3 spawnPos = startPositionT.position;
+        if (firstCollected)
         {
-            collectedAnswers += " ";
-            firstCollected = true;
+            collectedNumbers = new List<CollectedNumber>();
+            firstCollected = false;
         }
         else {
-            collectedAnswers += ", ";
+            Debug.Log("here!");
+            Debug.Log(collectedNumberIndex);
+            Debug.Log("collected numbers width: " + collectedNumbers[0].Width);
+            spawnPos = collectedNumbers[collectedNumberIndex - 1].transform.position - (collectedNumbers[0].Width) * Vector3.right;
         }
-        collectedAnswers += value.ToString();
-        collectedAnswersText.SetText(collectedAnswers);
+        Debug.Log(collectedNumberIndex + ", " + collectedNumbers.Count);
+        CollectedNumber collectedNum = Instantiate(collectedNumberPrefab, Vector3.zero, Quaternion.identity).GetComponent<CollectedNumber>();
+        collectedNum.transform.SetParent(canvas.transform);
+        collectedNum.transform.position = spawnPos;
+        /*GameObject explosion = Instantiate(starExplosion, Vector3.zero, Quaternion.identity);
+        explosion.transform.SetParent(canvas.transform);
+        explosion.transform.position = spawnPos;*/
+        collectedNum.SetNumberText(value.ToString());
+        collectedNumbers.Add(collectedNum);
+        collectedNumberIndex++;
     }
 
     private void DisplayLargeText(string textString, float fadeTime) 
@@ -86,6 +110,14 @@ public class ComparingAndOrderingUI : MonoBehaviour
     }
     private void StartSpawnQuestion(string questionString) 
     {
+        if(collectedNumbers != null)
+        {
+            foreach (CollectedNumber collectedNumber in collectedNumbers) 
+            {
+                Destroy(collectedNumber.gameObject);
+            }
+        }
+        firstCollected = true;
         StartCoroutine(FadeIn(questionText, questionString, 2f, flashScreenCG));
     }
 
@@ -93,14 +125,14 @@ public class ComparingAndOrderingUI : MonoBehaviour
     private void UpdateScore(bool correct)
     {
         score = correct ? score + 1 : score - 1;
-        scoreText.SetText("Score: " + score.ToString());
+        scoreText.SetText(score.ToString());
     }
     private void Quit()
     {
-        Application.Quit();
+        SceneManager.LoadScene(2);
     }
     private void Restart()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

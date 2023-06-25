@@ -41,11 +41,11 @@ public class TrueFalseUI : MonoBehaviour
 
     private void Restart()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     private void Quit()
     {
-        Application.Quit();
+        SceneManager.LoadScene(2);
     }
 
 
@@ -84,8 +84,5 @@ public class TrueFalseUI : MonoBehaviour
     {
         questionText.SetText(text);
     }
-    void Update()
-    {
-        
-    }
+
 }

@@ -74,11 +74,11 @@ public class BalloonUI : MonoBehaviour
 
     private void Restart() 
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     private void Quit()
     {
-        Application.Quit();
+        SceneManager.LoadScene(2);
     }
 
     private void UpdateQuestionText(string text) 
@@ -104,7 +104,7 @@ public class BalloonUI : MonoBehaviour
     private void UpdateScoreText(int value) 
     {
         score += value;
-        ScoreText.SetText("Score: "+score.ToString());
+        ScoreText.SetText(score.ToString());
     }
 
 }
