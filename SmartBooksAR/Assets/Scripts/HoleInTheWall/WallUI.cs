@@ -51,7 +51,7 @@ public class WallUI : MonoBehaviour
         restartButton.onClick.AddListener(Restart);
         quitButton.onClick.AddListener(Quit);
 
-        scoreText.SetText("Score: 0");
+        scoreText.SetText("0");
     }
 
     void Restart() 
@@ -96,7 +96,7 @@ public class WallUI : MonoBehaviour
         score = (currentValue == targetValue) ? score + 1 : score - 1;
         Color flashColour = currentValue == targetValue ? correctColour : incorrectColour;
         StartCoroutine(ChangeColour(colourChangeTime, scoreText, scoreText.color, flashColour));
-        scoreText.SetText("Score: " + score);
+        scoreText.SetText(score.ToString());
     }
     //TO DO: As this FadeInImage code is common among UI classes, create a parent class that all UI classes inherit from
     IEnumerator FadeInImage(float fadeInTime, CanvasGroup cg)

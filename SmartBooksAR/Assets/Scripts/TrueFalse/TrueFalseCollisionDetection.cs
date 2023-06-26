@@ -15,6 +15,7 @@ public class TrueFalseCollisionDetection : CollisionDetection
     public float selectionTime;
     [SerializeField] private float timeElapsed = 0f;
     static bool started;
+    static bool finished = false;
     private bool answerSelected;
     TrueFalseQuestionSpawner tfQuestionSpawner;
     protected override void Awake()
@@ -23,11 +24,12 @@ public class TrueFalseCollisionDetection : CollisionDetection
         tfQuestionSpawner = FindObjectOfType<TrueFalseQuestionSpawner>();
         tfQuestionSpawner.OnSpawnNextQuestion += NextQuestion;
         tfQuestionSpawner.OnGameStarted += OnGameStarted;
+        tfQuestionSpawner.OnFinished += OnGameEnded;
     }
 
     protected override void Select()
     {
-        if (!started) return;
+        if (!started || finished) return;
         
         Ray ray = CastRayThroughBoundsCentre();
         RaycastHit hit;
@@ -44,6 +46,10 @@ public class TrueFalseCollisionDetection : CollisionDetection
             answerSelected = true;
         }
         timeElapsed += Time.deltaTime;
+    }
+    protected void OnGameEnded() 
+    {
+        finished = true;
     }
     private void NextQuestion(string question) {
         answerSelected = false;

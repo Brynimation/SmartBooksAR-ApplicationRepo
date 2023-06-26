@@ -7,6 +7,7 @@ using UnityEngine.XR.ARSubsystems;
 using System.Linq;
 using System;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 
 [System.Serializable]
 public struct PlaceValueQuestion
@@ -246,6 +247,7 @@ public class PlaceValueController : MonoBehaviour
             dragon.Jump();
             yield return new WaitForSeconds(2f);
             dragon.SetSelected();
+            yield return new WaitForSeconds(1f);
             InvokeSpawnNextQuestionEvent();
         }
         

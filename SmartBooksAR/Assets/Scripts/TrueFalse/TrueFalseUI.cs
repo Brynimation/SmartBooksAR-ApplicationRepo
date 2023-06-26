@@ -25,7 +25,7 @@ public class TrueFalseUI : MonoBehaviour
 
     private void Awake()
     {
-        scoreText.SetText("Score: 0");
+        scoreText.SetText("0");
         Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
     void Start()
@@ -53,7 +53,7 @@ public class TrueFalseUI : MonoBehaviour
     {
         Debug.Log("updating score text");
         score += val;
-        scoreText.SetText("Score: " + score.ToString());
+        scoreText.SetText(score.ToString());
     }
     void DisplayLargeText(string text)
     {
@@ -61,7 +61,7 @@ public class TrueFalseUI : MonoBehaviour
         StartCoroutine(FadeInImage(textFadeInTime, largeTextCG));
     }
 
-    //TO DO: This Fading code is common to most of the different UI classes. Maybe the UIs could all inherit from a base UI class that contain this function definitio?
+    //TO DO: This Fading code is common to most of the different UI classes. Maybe the UIs could all inherit from a base UI class that contain this function definition?
     IEnumerator FadeInImage(float fadeInTime, CanvasGroup cg)
     {
         cg.gameObject.SetActive(true);

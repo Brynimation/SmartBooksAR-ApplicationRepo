@@ -40,7 +40,7 @@ public class BalloonUI : MonoBehaviour
 
         Balloon.OnDestroyBalloon += UpdateScoreText;
         QuestionText.SetText("");
-        UpdateTimeRemainingText("");
+        UpdateTimeRemainingText("0");
         UpdateScoreText(0);
      }
 

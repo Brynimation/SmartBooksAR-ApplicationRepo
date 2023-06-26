@@ -17,6 +17,7 @@ public abstract class QuestionSpawner : MonoBehaviour
     public Action<string> OnSpawnNextQuestion;
     public Action<string> OnDisplayLargeText;
     public Action<string> OnUpdateTimeRemaining;
+    public Action OnFinished;
     public float GameTime;
 
     protected float remainingTime;
@@ -151,6 +152,7 @@ public class TrueFalseQuestionSpawner : QuestionSpawner
         OnDisplayLargeText?.Invoke("Done!");
         OnSpawnNextQuestion?.Invoke("");
         OnUpdateTimeRemaining?.Invoke("0.00");
+        OnFinished?.Invoke();
     }
 
     protected override void OnTimeUp()

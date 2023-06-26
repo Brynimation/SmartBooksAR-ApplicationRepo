@@ -5637,16 +5637,16 @@ struct U3CU3Ec_tDEDAB9DB29043743F25770CD929CC0B2B0F742D2  : public RuntimeObject
 {
 };
 
-// QuestionSpawner/<DelayStart>d__10
-struct U3CDelayStartU3Ed__10_tA9F6A3A3CABF8C43E3C5675A58FFF2E1210A88F1  : public RuntimeObject
+// QuestionSpawner/<DelayStart>d__11
+struct U3CDelayStartU3Ed__11_t4AD6EA0C6D757511E8E76C351B56ABF4DA148A80  : public RuntimeObject
 {
-	// System.Int32 QuestionSpawner/<DelayStart>d__10::<>1__state
+	// System.Int32 QuestionSpawner/<DelayStart>d__11::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object QuestionSpawner/<DelayStart>d__10::<>2__current
+	// System.Object QuestionSpawner/<DelayStart>d__11::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// QuestionSpawner QuestionSpawner/<DelayStart>d__10::<>4__this
+	// QuestionSpawner QuestionSpawner/<DelayStart>d__11::<>4__this
 	QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186* ___U3CU3E4__this_2;
-	// System.Single QuestionSpawner/<DelayStart>d__10::<faceScreenSize>5__2
+	// System.Single QuestionSpawner/<DelayStart>d__11::<faceScreenSize>5__2
 	float ___U3CfaceScreenSizeU3E5__2_3;
 };
 
@@ -33040,18 +33040,20 @@ struct QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186  : public MonoB
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___OnDisplayLargeText_5;
 	// System.Action`1<System.String> QuestionSpawner::OnUpdateTimeRemaining
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___OnUpdateTimeRemaining_6;
+	// System.Action QuestionSpawner::OnFinished
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnFinished_7;
 	// System.Single QuestionSpawner::GameTime
-	float ___GameTime_7;
+	float ___GameTime_8;
 	// System.Single QuestionSpawner::remainingTime
-	float ___remainingTime_8;
+	float ___remainingTime_9;
 	// System.Boolean QuestionSpawner::started
-	bool ___started_9;
+	bool ___started_10;
 	// System.Boolean QuestionSpawner::coroutineComplete
-	bool ___coroutineComplete_10;
+	bool ___coroutineComplete_11;
 	// UnityEngine.XR.ARFoundation.ARFace QuestionSpawner::ARFace
-	ARFace_t73C068C9C8422F79A858EC41C322D399305B8453* ___ARFace_11;
+	ARFace_t73C068C9C8422F79A858EC41C322D399305B8453* ___ARFace_12;
 	// UnityEngine.Renderer QuestionSpawner::faceRenderer
-	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___faceRenderer_12;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___faceRenderer_13;
 };
 
 // QuitPanel
@@ -35466,30 +35468,30 @@ struct TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B  : 
 	// System.Single TrueFalseCollisionDetection::timeElapsed
 	float ___timeElapsed_8;
 	// System.Boolean TrueFalseCollisionDetection::answerSelected
-	bool ___answerSelected_10;
+	bool ___answerSelected_11;
 	// TrueFalseQuestionSpawner TrueFalseCollisionDetection::tfQuestionSpawner
-	TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B* ___tfQuestionSpawner_11;
+	TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B* ___tfQuestionSpawner_12;
 };
 
 // TrueFalseQuestionSpawner
 struct TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B  : public QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186
 {
 	// System.Collections.Generic.List`1<TrueFalseQuestionAnswer> TrueFalseQuestionSpawner::questions
-	List_1_t0C06F4D76BF650F7EB5289EB6330EF7D1CBFBC24* ___questions_13;
+	List_1_t0C06F4D76BF650F7EB5289EB6330EF7D1CBFBC24* ___questions_14;
 	// System.Action`1<System.Int32> TrueFalseQuestionSpawner::OnUpdateScore
-	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___OnUpdateScore_14;
+	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___OnUpdateScore_15;
 	// System.Action TrueFalseQuestionSpawner::OnGameStarted
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnGameStarted_15;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnGameStarted_16;
 	// TrueFalseRegion TrueFalseQuestionSpawner::trueRegion
-	TrueFalseRegion_t059DC292F4774CF8C167D32F7D15B209D3991872* ___trueRegion_16;
+	TrueFalseRegion_t059DC292F4774CF8C167D32F7D15B209D3991872* ___trueRegion_17;
 	// TrueFalseRegion TrueFalseQuestionSpawner::falseRegion
-	TrueFalseRegion_t059DC292F4774CF8C167D32F7D15B209D3991872* ___falseRegion_17;
+	TrueFalseRegion_t059DC292F4774CF8C167D32F7D15B209D3991872* ___falseRegion_18;
 	// System.Boolean TrueFalseQuestionSpawner::currentCorrectAnswer
-	bool ___currentCorrectAnswer_18;
+	bool ___currentCorrectAnswer_19;
 	// System.Int32 TrueFalseQuestionSpawner::currentQuestionIndex
-	int32_t ___currentQuestionIndex_19;
+	int32_t ___currentQuestionIndex_20;
 	// TrueFalseCollisionDetection TrueFalseQuestionSpawner::tfCollisionDetection
-	TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B* ___tfCollisionDetection_20;
+	TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B* ___tfCollisionDetection_21;
 };
 
 // WallCollisionDetection
@@ -40280,9 +40282,9 @@ struct U3CU3Ec_tDEDAB9DB29043743F25770CD929CC0B2B0F742D2_StaticFields
 
 // UnityEngine.Experimental.Rendering.ProbeVolumeSceneData/<>c
 
-// QuestionSpawner/<DelayStart>d__10
+// QuestionSpawner/<DelayStart>d__11
 
-// QuestionSpawner/<DelayStart>d__10
+// QuestionSpawner/<DelayStart>d__11
 
 // Readme/Section
 
@@ -47236,6 +47238,8 @@ struct TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B_Sta
 {
 	// System.Boolean TrueFalseCollisionDetection::started
 	bool ___started_9;
+	// System.Boolean TrueFalseCollisionDetection::finished
+	bool ___finished_10;
 };
 
 // TrueFalseCollisionDetection
@@ -52093,24 +52097,24 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5103[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5104[7] = 
 {
 	static_cast<int32_t>(offsetof(UI_t16DF663EF61FBCB2402111DB12E3091C775B4539, ___scoreText_4)),static_cast<int32_t>(offsetof(UI_t16DF663EF61FBCB2402111DB12E3091C775B4539, ___questionText_5)),static_cast<int32_t>(offsetof(UI_t16DF663EF61FBCB2402111DB12E3091C775B4539, ___restartButton_6)),static_cast<int32_t>(offsetof(UI_t16DF663EF61FBCB2402111DB12E3091C775B4539, ___quitButton_7)),static_cast<int32_t>(offsetof(UI_t16DF663EF61FBCB2402111DB12E3091C775B4539, ___score_8)),static_cast<int32_t>(offsetof(UI_t16DF663EF61FBCB2402111DB12E3091C775B4539, ___collisionDetection_9)),static_cast<int32_t>(offsetof(UI_t16DF663EF61FBCB2402111DB12E3091C775B4539, ___answerSpawner_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5106[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5106[7] = 
 {
-	static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___OnSelectAnswer_6)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___selectionTime_7)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___timeElapsed_8)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B_StaticFields, ___started_9)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___answerSelected_10)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___tfQuestionSpawner_11)),};
+	static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___OnSelectAnswer_6)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___selectionTime_7)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___timeElapsed_8)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B_StaticFields, ___started_9)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B_StaticFields, ___finished_10)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___answerSelected_11)),static_cast<int32_t>(offsetof(TrueFalseCollisionDetection_t3609B6DAAE2733987ACA07B2C54C558255FBAE5B, ___tfQuestionSpawner_12)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5107[2] = 
 {
 	static_cast<int32_t>(offsetof(TrueFalseQuestionAnswer_tC2B8443312A9DFC5D1EF5E33377333BF4ADE18AB, ___question_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(TrueFalseQuestionAnswer_tC2B8443312A9DFC5D1EF5E33377333BF4ADE18AB, ___correctAnswer_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5108[4] = 
 {
-	static_cast<int32_t>(offsetof(U3CDelayStartU3Ed__10_tA9F6A3A3CABF8C43E3C5675A58FFF2E1210A88F1, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CDelayStartU3Ed__10_tA9F6A3A3CABF8C43E3C5675A58FFF2E1210A88F1, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CDelayStartU3Ed__10_tA9F6A3A3CABF8C43E3C5675A58FFF2E1210A88F1, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CDelayStartU3Ed__10_tA9F6A3A3CABF8C43E3C5675A58FFF2E1210A88F1, ___U3CfaceScreenSizeU3E5__2_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5109[9] = 
+	static_cast<int32_t>(offsetof(U3CDelayStartU3Ed__11_t4AD6EA0C6D757511E8E76C351B56ABF4DA148A80, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CDelayStartU3Ed__11_t4AD6EA0C6D757511E8E76C351B56ABF4DA148A80, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CDelayStartU3Ed__11_t4AD6EA0C6D757511E8E76C351B56ABF4DA148A80, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CDelayStartU3Ed__11_t4AD6EA0C6D757511E8E76C351B56ABF4DA148A80, ___U3CfaceScreenSizeU3E5__2_3)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5109[10] = 
 {
-	static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___OnSpawnNextQuestion_4)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___OnDisplayLargeText_5)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___OnUpdateTimeRemaining_6)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___GameTime_7)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___remainingTime_8)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___started_9)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___coroutineComplete_10)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___ARFace_11)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___faceRenderer_12)),};
+	static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___OnSpawnNextQuestion_4)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___OnDisplayLargeText_5)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___OnUpdateTimeRemaining_6)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___OnFinished_7)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___GameTime_8)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___remainingTime_9)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___started_10)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___coroutineComplete_11)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___ARFace_12)),static_cast<int32_t>(offsetof(QuestionSpawner_t6B730FD9F2348B9C4680EA1A962E35795CDAA186, ___faceRenderer_13)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5110[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CTryFindCollisionDetectionU3Ed__10_tCC4E96D330B39D08C31E70932623A52FD2C22B20, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CTryFindCollisionDetectionU3Ed__10_tCC4E96D330B39D08C31E70932623A52FD2C22B20, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CTryFindCollisionDetectionU3Ed__10_tCC4E96D330B39D08C31E70932623A52FD2C22B20, ___U3CU3E4__this_2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5111[8] = 
 {
-	static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___questions_13)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___OnUpdateScore_14)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___OnGameStarted_15)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___trueRegion_16)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___falseRegion_17)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___currentCorrectAnswer_18)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___currentQuestionIndex_19)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___tfCollisionDetection_20)),};
+	static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___questions_14)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___OnUpdateScore_15)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___OnGameStarted_16)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___trueRegion_17)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___falseRegion_18)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___currentCorrectAnswer_19)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___currentQuestionIndex_20)),static_cast<int32_t>(offsetof(TrueFalseQuestionSpawner_tDBB092FF2CBAE7597D25C8E53314DF003A70C53B, ___tfCollisionDetection_21)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5112[6] = 
 {
 	static_cast<int32_t>(offsetof(U3CSetSelectedCoroutineU3Ed__17_t758FBE846BE85AA7F787990FEEA126191D16D871, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CSetSelectedCoroutineU3Ed__17_t758FBE846BE85AA7F787990FEEA126191D16D871, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CSetSelectedCoroutineU3Ed__17_t758FBE846BE85AA7F787990FEEA126191D16D871, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CSetSelectedCoroutineU3Ed__17_t758FBE846BE85AA7F787990FEEA126191D16D871, ___colour_3)),static_cast<int32_t>(offsetof(U3CSetSelectedCoroutineU3Ed__17_t758FBE846BE85AA7F787990FEEA126191D16D871, ___ChangeColourTime_4)),static_cast<int32_t>(offsetof(U3CSetSelectedCoroutineU3Ed__17_t758FBE846BE85AA7F787990FEEA126191D16D871, ___U3CelapsedTimeU3E5__2_5)),};

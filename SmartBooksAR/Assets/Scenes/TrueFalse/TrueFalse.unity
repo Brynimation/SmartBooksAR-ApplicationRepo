@@ -935,7 +935,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0.3647059, g: 0.3647059, b: 0.9960785, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1148,7 +1148,7 @@ PrefabInstance:
     - target: {fileID: 3896428543994747474, guid: fd488bc748c8c7044b1874f4e56e12e5,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3896428543994747474, guid: fd488bc748c8c7044b1874f4e56e12e5,
         type: 3}
@@ -1158,7 +1158,7 @@ PrefabInstance:
     - target: {fileID: 3896428543994747474, guid: fd488bc748c8c7044b1874f4e56e12e5,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3896428543994747474, guid: fd488bc748c8c7044b1874f4e56e12e5,
         type: 3}
@@ -1168,7 +1168,7 @@ PrefabInstance:
     - target: {fileID: 3896428543994747474, guid: fd488bc748c8c7044b1874f4e56e12e5,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 108.4684
+      value: 108.46838
       objectReference: {fileID: 0}
     - target: {fileID: 3896428543994747474, guid: fd488bc748c8c7044b1874f4e56e12e5,
         type: 3}
@@ -1228,7 +1228,7 @@ PrefabInstance:
     - target: {fileID: 3896428543994747474, guid: fd488bc748c8c7044b1874f4e56e12e5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 220
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 3896428543994747474, guid: fd488bc748c8c7044b1874f4e56e12e5,
         type: 3}
@@ -1255,6 +1255,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScoreTrophy
       objectReference: {fileID: 0}
+    - target: {fileID: 3896428544616921678, guid: fd488bc748c8c7044b1874f4e56e12e5,
+        type: 3}
+      propertyPath: m_text
+      value: 'Score:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896428544616921679, guid: fd488bc748c8c7044b1874f4e56e12e5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.36601502
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896428544616921679, guid: fd488bc748c8c7044b1874f4e56e12e5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3331188
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896428544616921679, guid: fd488bc748c8c7044b1874f4e56e12e5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd488bc748c8c7044b1874f4e56e12e5, type: 3}
 --- !u!224 &1282767187 stripped
@@ -1263,18 +1283,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1282767186}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1282767188 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3896428544616921678, guid: fd488bc748c8c7044b1874f4e56e12e5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1282767186}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1331501310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1646,7 +1654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3676b9404ea61b446849fafc16090f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1282767188}
+  scoreText: {fileID: 1508650872}
   questionText: {fileID: 1687337895}
   timerText: {fileID: 1095451947}
   largeText: {fileID: 143855713}
@@ -1654,6 +1662,18 @@ MonoBehaviour:
   textFadeInTime: 1
   RestartButton: {fileID: 94288326}
   QuitButton: {fileID: 2134561184}
+--- !u!114 &1508650872 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3896428543344624832, guid: fd488bc748c8c7044b1874f4e56e12e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1282767186}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1687337894
 GameObject:
   m_ObjectHideFlags: 0
