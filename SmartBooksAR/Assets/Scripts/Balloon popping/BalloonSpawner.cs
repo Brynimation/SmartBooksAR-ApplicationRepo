@@ -22,16 +22,20 @@ public class BalloonSpawner : MonoBehaviour
     public Action<string> OnSpawnNextQuestion; //Event - when invoked, it tells the UI to display the next question
     public Action<string> OnDisplayLargeText; //Event - when invoked, it tells the UI to display large text
     public Action<string> OnUpdateTimeRemaining;//Event - when invoked, it tells the UI to update the time remaining text.
+    public Action OnGameEnd;
 
+    
     private float remainingTime;
     private bool started = false;
     private bool coroutineComplete = false;
     private ARFace ARFace;
     private Renderer faceRenderer;
     int currentQuestionIndex;
+    int numCorrectAnswersSelected;
 
     private void Awake()
     {
+        Balloon.OnDestroyBalloon += OnDestroyBalloon;
         Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
     void Start()
@@ -92,19 +96,36 @@ public class BalloonSpawner : MonoBehaviour
         started = true;
         OnSpawnNextQuestion?.Invoke(questionAnswers[currentQuestionIndex].question);
         OnUpdateTimeRemaining?.Invoke(timePerQuestion.ToString());
-        SpawnAllAnswers();
+        StartSpawnAllAnswers();
 
+    }
+    void OnDestroyBalloon(int scoreChange, string value) 
+    {
+        if (!started) return;
+        numCorrectAnswersSelected = (scoreChange == 1) ? (numCorrectAnswersSelected + 1) : numCorrectAnswersSelected;
+        if (numCorrectAnswersSelected == questionAnswers[currentQuestionIndex].correctAnswerIndices.Count) 
+        {
+            currentQuestionIndex++;
+            DestroyPreviousAnswers();
+            StartSpawnAllAnswers();
+            numCorrectAnswersSelected = 0;
+
+        }
     }
 
     //TO DO: This code is quite similar among all classes used to spawn answers. It might be worthwhile moving this sort of functionality to a base class that all answer spawners must inherit from.
-    void SpawnAllAnswers() 
+    void StartSpawnAllAnswers() 
     {
-
-        //If we've reached the end of the list
+        StartCoroutine(SpawnAllAnswers());    
+    }
+    IEnumerator SpawnAllAnswers() 
+    {
+        yield return new WaitForSeconds(0.5f);
         if (currentQuestionIndex == questionAnswers.Count) 
         {
-            OnSpawnNextQuestion?.Invoke("Finished!");
-            return;
+            OnSpawnNextQuestion?.Invoke("CONGRATULATIONS!");
+            OnGameEnd?.Invoke();
+            yield break;
         }
 
         List<string> answers = questionAnswers[currentQuestionIndex].answers;
@@ -124,7 +145,6 @@ public class BalloonSpawner : MonoBehaviour
         OnSpawnNextQuestion?.Invoke(questionAnswers[currentQuestionIndex].question);
        
         //Move to next quesetion
-        currentQuestionIndex++;
     }
     //Initialises a balloon with a starting position and text to display.
     void SpawnBalloonAnswer(Vector2 viewportPosition, string answerText, int curIndex, List<int> correctIndices) 
@@ -169,14 +189,5 @@ public class BalloonSpawner : MonoBehaviour
         }
 #endif
         if (!started) return;
-        remainingTime -= Time.deltaTime;
-        if (remainingTime <= 0) 
-        {
-            remainingTime = timePerQuestion;
-            DestroyPreviousAnswers();
-            SpawnAllAnswers();
-        }
-        float roundedRemainingTime = (float) Math.Round(remainingTime, 2);
-        OnUpdateTimeRemaining?.Invoke(roundedRemainingTime.ToString());
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Runtime.CompilerServices;
 
 public class ComparingAndOrderingUI : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class ComparingAndOrderingUI : MonoBehaviour
     [Header("Text")]
     [SerializeField] TMP_Text questionText;
     [SerializeField] TMP_Text scoreText;
+    [SerializeField] TMP_Text leftToFindText;
 
     [Header("Button")]
     [SerializeField] Button quitButton;
@@ -35,6 +37,7 @@ public class ComparingAndOrderingUI : MonoBehaviour
     WorldAnswerSelection answerSelector;
     bool firstCollected = true;
     private int score = 0;
+    private int leftToFind;
     private void Awake()
     {
         canvas = GetComponent<Canvas>();
@@ -66,6 +69,8 @@ public class ComparingAndOrderingUI : MonoBehaviour
     private void UpdateCollectedNumbers(bool correct, int value)
     {
         if (!correct) return;
+        leftToFind--;
+        leftToFindText.SetText("Left to find: " + leftToFind.ToString());
         Vector3 spawnPos = startPositionT.position;
         if (firstCollected)
         {
@@ -108,7 +113,7 @@ public class ComparingAndOrderingUI : MonoBehaviour
         }
         cg.gameObject.SetActive(false);
     }
-    private void StartSpawnQuestion(string questionString) 
+    private void StartSpawnQuestion(string questionString, int totalCorrectAnswers) 
     {
         if(collectedNumbers != null)
         {
@@ -118,6 +123,9 @@ public class ComparingAndOrderingUI : MonoBehaviour
             }
         }
         firstCollected = true;
+        collectedNumberIndex = 0;
+        leftToFind = totalCorrectAnswers;
+        leftToFindText.SetText("Left to find: " + leftToFind.ToString());
         StartCoroutine(FadeIn(questionText, questionString, 2f, flashScreenCG));
     }
 

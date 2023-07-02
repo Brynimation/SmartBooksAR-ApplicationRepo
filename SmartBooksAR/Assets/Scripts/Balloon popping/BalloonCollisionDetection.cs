@@ -24,19 +24,22 @@ public class BalloonCollisionDetection : CollisionDetection
         if (Physics.SphereCast(ray, mRenderer.bounds.extents.magnitude/2f, out hit, answerLayerMask)) 
         {
             GameObject hitGo = hit.collider.gameObject;
+            Balloon balloon = hitGo.GetComponent<Balloon>();
             string name = hitGo.name;
             string tag = hitGo.tag;
             int scoreChange = tag == "Correct" ? 1 : -1;
+            string value = balloon.value;
             if (tag == "Correct")
             {
                 Instantiate(correctAnswerSelectedExplosion, hitGo.transform.position, Quaternion.Euler(90f, 0f, 0f));
-                Balloon.OnDestroyBalloon?.Invoke(scoreChange);
+                Balloon.OnDestroyBalloon?.Invoke(scoreChange, value);
                 Destroy(hitGo);
             }
             else {
                 Balloon incorrectBalloon = hitGo.GetComponent<Balloon>();
-                Balloon.OnDestroyBalloon?.Invoke(scoreChange);
-                incorrectBalloon.IncorrectAnswerFade(incorrectAnswerFadeColour, balloonFadeTime);
+                if (incorrectBalloon.selected) return;
+                Balloon.OnDestroyBalloon?.Invoke(scoreChange, value);
+                incorrectBalloon.IncorrectAnswerFade(incorrectAnswerFadeColour, balloonFadeTime); // change this
             }
 
 

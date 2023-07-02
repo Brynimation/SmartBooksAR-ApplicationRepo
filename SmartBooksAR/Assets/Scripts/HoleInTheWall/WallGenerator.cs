@@ -11,7 +11,7 @@ struct WallGeneratorValues
 }
 public class WallGenerator : MonoBehaviour
 {
-    public Action<int, int> OnSpawnNewValues;
+    public Action<int, int, bool> OnSpawnNewValues;
     public Action<string> OnDisplayMessage;
     public Action<string> OnDisplayLargeText;
 
@@ -32,6 +32,7 @@ public class WallGenerator : MonoBehaviour
     int currentValueIndex;
     WallCollisionDetection wallSelection;
     bool coroutineFinished;
+    bool isSecondAttempt;
 
     Camera cam;
     float elapsedTime;
@@ -46,22 +47,38 @@ public class WallGenerator : MonoBehaviour
     {
         for (int i = 0; i < 4; i++)
         {
-            Debug.Log(currentValueIndex);
             Color colour = (wallGeneratorValues[currentValueIndex].values[i] > 0) ? incrementColour : decrementColour;
-            wallPieces[i].InitialiseAnswer(0, wallGeneratorValues[currentValueIndex].values[i], distanceFromNearClipPlane, colour);
+            bool isCorrect = (currentValues[currentValueIndex] + wallGeneratorValues[currentValueIndex].values[i]) == targetValues[currentValueIndex];
+            wallPieces[i].InitialiseAnswer(0, wallGeneratorValues[currentValueIndex].values[i], distanceFromNearClipPlane, colour, isCorrect);
         }
     }
 
     private void Awake()
     {
         Screen.orientation = ScreenOrientation.LandscapeLeft;
+        WallPiece.OnPieceSelected += CheckIfCorrect;
     }
+
+
     private void Start()
     {
         cam = Camera.main;
         StartCoroutine(DelayStart());
     }
 
+    void CheckIfCorrect(int val, bool isCorrect) 
+    {
+        if (!isSecondAttempt && !isCorrect)
+        {
+            OnDisplayMessage("Try again");
+            currentValueIndex--;
+            isSecondAttempt = true;
+        }
+        else {
+            OnDisplayMessage("");
+            isSecondAttempt = false;
+        }
+    }
     IEnumerator DelayStart()
     {
         //TO DO: This code is used in the BalloonSpawner class too. Could it be moved to a separate class?
@@ -144,13 +161,13 @@ public class WallGenerator : MonoBehaviour
     {
         if (currentValueIndex == targetValues.Count)
         {
-            OnSpawnNewValues?.Invoke(0, 0);
+            OnSpawnNewValues?.Invoke(0, 0, false);
             Destroy(this.gameObject);
         }
         else
         {
             Debug.Log("here!");
-            OnSpawnNewValues?.Invoke(currentValues[currentValueIndex], targetValues[currentValueIndex]);
+            OnSpawnNewValues?.Invoke(currentValues[currentValueIndex], targetValues[currentValueIndex], isSecondAttempt);
             InitialiseAnswers();
             elapsedTime = 0f;
             currentValueIndex++;

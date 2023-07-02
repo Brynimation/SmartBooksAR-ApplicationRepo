@@ -26,9 +26,17 @@ public class WallUI : MonoBehaviour
     [SerializeField] Color correctColour;
     [SerializeField] Color incorrectColour;
     [SerializeField] Color changeColour;
+
     [Header("Buttons")]
     [SerializeField] Button restartButton;
     [SerializeField] Button quitButton;
+
+    [Header("Trophy")]
+    [SerializeField] CanvasGroup fadeImage;
+    [SerializeField] TMP_Text finishedText;
+    [SerializeField] GameObject scoreTrophy;
+    [SerializeField] GameObject congratulationsTrophy;
+    [SerializeField] TMP_Text congratulationsScore;
 
 
 
@@ -52,6 +60,7 @@ public class WallUI : MonoBehaviour
         quitButton.onClick.AddListener(Quit);
 
         scoreText.SetText("0");
+        finishedText.SetText("");
     }
 
     void Restart() 
@@ -62,13 +71,18 @@ public class WallUI : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
-    void UpdateValues(int target, int current) 
+    void UpdateValues(int current, int target, bool isSecondAttempt) 
     {
         if (target == 0 && current == 0) 
         {
-            targetValueText.SetText("Finished!");
+            StartCoroutine(FadeImage(1f, fadeImage, false));
+            targetValueText.SetText("");
+            finishedText.SetText("Congratulations!");
             StartCoroutine(ChangeColour(colourChangeTime, targetValueText, targetValueText.color, changeColour));
             currentValueText.SetText("");
+            scoreTrophy.SetActive(false);
+            congratulationsTrophy.SetActive(true);
+            congratulationsScore.SetText(score.ToString());
             return;
         }
         targetValue = target;
@@ -86,25 +100,33 @@ public class WallUI : MonoBehaviour
     void DisplayLargeText(string msg) 
     {
         LargeText.SetText(msg);
-        StartCoroutine(FadeInImage(FadeInTime, LargeTextCG));
+        StartCoroutine(FadeImage(FadeInTime, LargeTextCG, true));
     }
-    private void UpdateCurrentValue(int val) 
+    private void UpdateCurrentValue(int val, bool isSecondAttempt) 
     {
         currentValue += val;
         currentValueText.SetText(currentValue.ToString());
         StartCoroutine(ChangeColour(colourChangeTime, currentValueText, currentValueText.color, changeColour));
-        score = (currentValue == targetValue) ? score + 1 : score - 1;
+        if (currentValue == targetValue)
+        {
+            score = (isSecondAttempt) ? score + 2 : score + 1;
+        }
+        else {
+            score -= 1;
+        }
+        
         Color flashColour = currentValue == targetValue ? correctColour : incorrectColour;
         StartCoroutine(ChangeColour(colourChangeTime, scoreText, scoreText.color, flashColour));
         scoreText.SetText(score.ToString());
     }
-    //TO DO: As this FadeInImage code is common among UI classes, create a parent class that all UI classes inherit from
-    IEnumerator FadeInImage(float fadeInTime, CanvasGroup cg)
+    //TO DO: As this FadeImage code is common among UI classes, create a parent class that all UI classes inherit from
+    IEnumerator FadeImage(float fadeInTime, CanvasGroup cg, bool fadeIn)
     {
         cg.gameObject.SetActive(true);
         while (remainingTimeToFade < fadeInTime)
         {
-            cg.alpha = remainingTimeToFade / fadeInTime;
+            float alpha = fadeIn ? remainingTimeToFade / fadeInTime : 1f - remainingTimeToFade / fadeInTime;
+            cg.alpha = alpha;
             remainingTimeToFade += Time.deltaTime;
             yield return null;
         }

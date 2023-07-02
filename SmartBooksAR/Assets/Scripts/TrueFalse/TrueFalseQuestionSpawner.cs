@@ -149,9 +149,8 @@ public class TrueFalseQuestionSpawner : QuestionSpawner
     }
     protected override void DestroyPreviousAnswers()
     {
-        OnDisplayLargeText?.Invoke("Done!");
-        OnSpawnNextQuestion?.Invoke("");
-        OnUpdateTimeRemaining?.Invoke("0.00");
+        OnSpawnNextQuestion?.Invoke("Congratulations");
+        OnUpdateTimeRemaining?.Invoke("");
         OnFinished?.Invoke();
     }
 

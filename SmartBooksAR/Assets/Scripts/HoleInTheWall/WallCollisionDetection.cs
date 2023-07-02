@@ -16,6 +16,9 @@ public class WallCollisionDetection : CollisionDetection
     [SerializeField] Color selectedColour;
     public float selectionTime;
 
+    [SerializeField] Color incorrectColour;
+    [SerializeField] Color correctColour;
+
     float remainingSelectionTime;
     bool selecting = false;
     bool selected = false;
@@ -25,7 +28,7 @@ public class WallCollisionDetection : CollisionDetection
     {
         base.Awake();
         wallGenerator = FindObjectOfType<WallGenerator>();
-        wallGenerator.OnSpawnNewValues += (int x, int y) => { selected = false; };
+        wallGenerator.OnSpawnNewValues += (int x, int y, bool isSecondAttempt) => { selected = false; };
     }
     protected override void Select()
     {
@@ -51,6 +54,8 @@ public class WallCollisionDetection : CollisionDetection
                 WallPiece wallPiece = hit.collider.GetComponent<WallPiece>();
                 if (wallPiece != null)
                 {
+                    Debug.Log("wall piece is correct : " + wallPiece.isCorrect);
+                    selectedColour = wallPiece.isCorrect ? correctColour : incorrectColour;
                     wallPiece.SetSelected(selectedColour);
                     selecting = false;
                     selected = true;

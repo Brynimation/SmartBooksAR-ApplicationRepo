@@ -93,7 +93,7 @@ public class TileUI : MonoBehaviour
         string text = (time >= 0) ? time.ToString() : "";
         timerText.SetText(text);
     }
-    //TO DO: As this FadeInImage code is common among UI classes, create a parent class that all UI classes inherit from
+    //TO DO: As this FadeImage code is common among UI classes, create a parent class that all UI classes inherit from
     IEnumerator FadeInImage(float fadeInTime, CanvasGroup cg)
     {
         cg.gameObject.SetActive(true);

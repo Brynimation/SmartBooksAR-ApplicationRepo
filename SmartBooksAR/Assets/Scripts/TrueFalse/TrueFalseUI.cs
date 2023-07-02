@@ -22,6 +22,11 @@ public class TrueFalseUI : MonoBehaviour
     [SerializeField] Button QuitButton;
     private int score;
     private TrueFalseQuestionSpawner tfQuestionSpawner;
+    [Header("Trophy")]
+    public GameObject scoreTrophy;
+    public GameObject winningTrophy;
+    public TMP_Text winningScoreText;
+    [SerializeField] CanvasGroup fadeCG;
 
     private void Awake()
     {
@@ -35,6 +40,7 @@ public class TrueFalseUI : MonoBehaviour
         tfQuestionSpawner.OnUpdateTimeRemaining += UpdateTimeRemaining;
         tfQuestionSpawner.OnDisplayLargeText += DisplayLargeText;
         tfQuestionSpawner.OnSpawnNextQuestion += UpdateQuestion;
+        tfQuestionSpawner.OnFinished += EnableTrophy;
         RestartButton.onClick.AddListener(Restart);
         QuitButton.onClick.AddListener(Quit);
     }
@@ -48,7 +54,13 @@ public class TrueFalseUI : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-
+    void EnableTrophy() 
+    {
+        StartCoroutine(FadeInImage(1f, fadeCG));
+        scoreTrophy.SetActive(false);
+        winningScoreText.SetText(score.ToString());
+        winningTrophy.SetActive(true);
+    }
     void UpdateScore(int val) 
     {
         Debug.Log("updating score text");

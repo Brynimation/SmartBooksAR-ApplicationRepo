@@ -9,7 +9,7 @@ public class SpawnAnswersInWorld : MonoBehaviour
 {
 
     //Events
-    public Action<string> OnSpawnNextQuestion;
+    public Action<string, int> OnSpawnNextQuestion;
     public Action<string, float> OnDisplayLargeText;
     public Action OnAllCorrectAnswersSelected;
 
@@ -75,7 +75,7 @@ public class SpawnAnswersInWorld : MonoBehaviour
         }
 
         //Send event to UI to change the question
-        OnSpawnNextQuestion?.Invoke(questionAnswers[currentQuestionIndex].question);
+        OnSpawnNextQuestion?.Invoke(questionAnswers[currentQuestionIndex].question, totalCorrectAnswers);
 
         //Move to next quesetion
         currentQuestionIndex++;
@@ -102,7 +102,7 @@ public class SpawnAnswersInWorld : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
         if (currentQuestionIndex == questionAnswers.Count)
         {
-            OnSpawnNextQuestion?.Invoke("Finished!");
+            OnSpawnNextQuestion?.Invoke("Finished!", 0);
             yield return null;
         }
         else

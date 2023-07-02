@@ -218,6 +218,8 @@ MonoBehaviour:
   screenTime: 5
   worldCanvas: {fileID: 15167892579713556}
   incrementDecrementText: {fileID: 5252171897504058585}
+  incorrectColour: {r: 0, g: 1, b: 0, a: 1}
+  correctColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &5958993801600755907
 GameObject:
   m_ObjectHideFlags: 0

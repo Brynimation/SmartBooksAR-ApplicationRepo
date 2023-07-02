@@ -10,16 +10,16 @@ public class ObjectViewportSpace : MonoBehaviour
 }
 public class WallPiece : MonoBehaviour
 {
-    public static Action<int> OnPieceSelected;
+    public static Action<int, bool> OnPieceSelected;
 
     public int incrementDecrementValue;
     public float viewportPosY;
     public float distanceFromNearClipPlane;
     public float screenTime = 5f;
+    public bool isCorrect;
 
     [SerializeField] Canvas worldCanvas;
     [SerializeField] TMP_Text incrementDecrementText;
-    
 
     Material mat;
     Camera cam;
@@ -38,8 +38,9 @@ public class WallPiece : MonoBehaviour
         incrementDecrementText.transform.localScale = localScale;
 #endif
     }
-    public void InitialiseAnswer(float viewportPosY, int incrementDecrementValue, float distanceFromNearClipPlane, Color colour)
+    public void InitialiseAnswer(float viewportPosY, int incrementDecrementValue, float distanceFromNearClipPlane, Color colour, bool isCorrect)
     {
+        this.isCorrect = isCorrect;
         this.viewportPosY = viewportPosY;
         this.incrementDecrementValue = incrementDecrementValue;
         mat.color = colour;
@@ -51,6 +52,6 @@ public class WallPiece : MonoBehaviour
     public void SetSelected(Color selectedColour) 
     {
         mat.color = selectedColour;
-        OnPieceSelected?.Invoke(incrementDecrementValue);
+        OnPieceSelected?.Invoke(incrementDecrementValue, isCorrect);
     }
 }

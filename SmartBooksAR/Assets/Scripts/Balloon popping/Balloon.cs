@@ -7,7 +7,7 @@ using UnityEngine.XR.ARFoundation;
 
 public class Balloon : MonoBehaviour
 {
-    public static Action<int> OnDestroyBalloon;
+    public static Action<int, string> OnDestroyBalloon;
     public Vector2 viewportPosition;
     public Canvas worldCanvas;
     public TMP_Text answerText;
@@ -19,10 +19,12 @@ public class Balloon : MonoBehaviour
     public float xAmplitude;
     public float yAmplitude;
     public float balloonMaxSpeed = 1f;
+    public bool selected;
+    public string value;
 
     private Material material;
     private float currentXVelocity;
-    private bool selected;
+
     private float currentYVelocity;
     private bool collided = false;
     private static int totalBalloons = 0;
@@ -81,6 +83,7 @@ public class Balloon : MonoBehaviour
     //Sets the position and text of this balloon
     public void InitialiseAnswer(Vector2 viewportPos, string answer, int curIndex, List<int> correctIndices, Renderer faceRenderer)
     {
+        this.value = answer;
         viewportPosition = viewportPos;
         answerText.SetText(answer);
         gameObject.tag = (correctIndices.Contains(curIndex)) ? "Correct" : "Incorrect";
@@ -95,7 +98,6 @@ public class Balloon : MonoBehaviour
         }
         transform.position = pos;
     }
-
     //When balloons collide, a force is exerted on this balloon so they bounce off of eachother.
     private void OnCollisionEnter(Collision collision)
     {
@@ -111,7 +113,8 @@ public class Balloon : MonoBehaviour
     {
         if (selected) return;
         selected = true;
-        balloonMaxSpeed = 0f;
+        rb.useGravity = true;
+        balloonMaxSpeed = 10f;
         StartCoroutine(IncorrectAnswerFadeCoroutine(incorrectColour, fadeTime));
     }
     private IEnumerator IncorrectAnswerFadeCoroutine(Color incorrectColour, float fadeTime) 
