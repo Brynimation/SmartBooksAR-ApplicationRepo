@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'en' Physical Memory: 18423 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16301 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\Unity 2021.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-E:/SmartBooksAR/ARTests/ARFoundationPractice/NewRepo/SmartBooksAR-ApplicationRepo/SmartBooksAR
+C:/Unity/SmartBooksAR-ApplicationRepo/SmartBooksAR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61048
-Successfully changed project path to: E:/SmartBooksAR/ARTests/ARFoundationPractice/NewRepo/SmartBooksAR-ApplicationRepo/SmartBooksAR
-E:/SmartBooksAR/ARTests/ARFoundationPractice/NewRepo/SmartBooksAR-ApplicationRepo/SmartBooksAR
+53607
+Successfully changed project path to: C:/Unity/SmartBooksAR-ApplicationRepo/SmartBooksAR
+C:/Unity/SmartBooksAR-ApplicationRepo/SmartBooksAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,70 +47,2133 @@ E:/SmartBooksAR/ARTests/ARFoundationPractice/NewRepo/SmartBooksAR-ApplicationRep
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3464] Host "[IP] 192.168.1.94 [Port] 0 [Flags] 2 [Guid] 232105794 [EditorId] 232105794 [Version] 1048832 [Id] WindowsEditor(7,Bryn-i7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5104] Host "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 3343534437 [EditorId] 3343534437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T0TSCBK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3464] Host "[IP] 192.168.1.94 [Port] 0 [Flags] 2 [Guid] 232105794 [EditorId] 232105794 [Version] 1048832 [Id] WindowsEditor(7,Bryn-i7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5104] Host "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 3343534437 [EditorId] 3343534437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T0TSCBK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 508.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 124.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/SmartBooksAR/ARTests/ARFoundationPractice/NewRepo/SmartBooksAR-ApplicationRepo/SmartBooksAR/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/SmartBooksAR-ApplicationRepo/SmartBooksAR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
     Vendor:   NVIDIA
-    VRAM:     4043 MB
-    Driver:   31.0.15.1694
+    VRAM:     5968 MB
+    Driver:   31.0.15.3203
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.667190 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005694 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
-[usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1100 ms
-Refreshing native plugins compatible for Editor in 241.69 ms, found 3 plugins.
+InvalidOperationException: Cannot start process because a file name has not been provided.
+  at System.Diagnostics.Process.Start () [0x00024] in <4663fa2b329d4dfb93efb27413cffe64>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Start()
+  at UnityEditor.Android.ProgramAsShellExecute.Start (System.Diagnostics.ProcessStartInfo psi) [0x0000e] in <8b5e5c27dd23466cbbae54c94c729526>:0 
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0003e] in <8b5e5c27dd23466cbbae54c94c729526>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <8b5e5c27dd23466cbbae54c94c729526>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <8b5e5c27dd23466cbbae54c94c729526>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <8b5e5c27dd23466cbbae54c94c729526>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <8b5e5c27dd23466cbbae54c94c729526>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <8b5e5c27dd23466cbbae54c94c729526>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <8b5e5c27dd23466cbbae54c94c729526>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <42a64fd733d9417da1ea3a757ad9a96d>:0 
+
+Refreshing native plugins compatible for Editor in 118.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 13.473 seconds
+- Completed reload, in  0.769 seconds
 Domain Reload Profiling:
-	ReloadAssembly (13474ms)
-		BeginReloadAssembly (7646ms)
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (4492ms)
-			LoadAssemblies (7648ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2207ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (2110ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (371ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1608ms)
+				InitializePlatformSupportModulesInManaged (127ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (242ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
 Registering precompiled user dll's ...
-Registered in 0.009376 seconds.
+Registered in 0.007366 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 125.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.877 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1878ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1626ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1012ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (639ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5689 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 6148.
+Memory consumption went from 233.9 MB to 233.2 MB.
+Total: 5.932500 ms (FindLiveObjects: 0.626100 ms CreateObjectMapping: 0.753100 ms MarkObjects: 3.938400 ms  DeleteObjects: 0.613600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 278349.508857 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(120c0b23f0b537f4eaa97c0739d3c22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(120c0b23f0b537f4eaa97c0739d3c22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f89118063dacefdacefd69437cdb54') in 0.221257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/ARCursor.png
+  artifactKey: Guid(d1a832a3870b6e14fa1b6d0267421d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCursor.png using Guid(d1a832a3870b6e14fa1b6d0267421d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef1e35041904d5d188cd67e889f8236') in 0.180812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7189.382520 seconds.
+  path: Assets/ToonKids/Textures/eye2.png
+  artifactKey: Guid(d4f4d508561f2df429a912a6a9937cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/eye2.png using Guid(d4f4d508561f2df429a912a6a9937cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7be104cb5f1f2b39c6079620e39971') in 0.080995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/ToonKids/Textures/TKDress10.png
+  artifactKey: Guid(094f35a1d4b84ab42ac288a765e16a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress10.png using Guid(094f35a1d4b84ab42ac288a765e16a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442c78e1d1fdb67611cf8ca4f97e6884') in 0.028186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Textures/TKBoyB03.png
+  artifactKey: Guid(d2500f2cd1b72e640a0a0db7759352ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyB03.png using Guid(d2500f2cd1b72e640a0a0db7759352ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4173c806875fc4100d67fbb073773a') in 0.032792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKBHairD01.png
+  artifactKey: Guid(db09e2a29655a304ca88e5ac9e576474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBHairD01.png using Guid(db09e2a29655a304ca88e5ac9e576474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6bf42709c936b2c77625370bc509b0') in 0.022748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/ToonKids/Textures/TKBoyD03N.png
+  artifactKey: Guid(293edcbd92d0d5447bc814767f4ff0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyD03N.png using Guid(293edcbd92d0d5447bc814767f4ff0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b679d4c3ab9b37bdf8e02e9387e9d2') in 0.041789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonKids/Textures/TKBoyA03N.png
+  artifactKey: Guid(8668817d7f644c44a92d4c33cfee0d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyA03N.png using Guid(8668817d7f644c44a92d4c33cfee0d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b48a6899eb559eed6df0241b8f27b37') in 0.024550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKBoyA03.png
+  artifactKey: Guid(56cf7b7c37932aa4ca24472cc21d0ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyA03.png using Guid(56cf7b7c37932aa4ca24472cc21d0ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580f41270f2e8dc33e66ffff811dc045') in 0.020932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Textures/TKDress13.png
+  artifactKey: Guid(e424ead28c32787438c057156a40e69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress13.png using Guid(e424ead28c32787438c057156a40e69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d7ff470042ed99fa1890e98b4ac28') in 0.020371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA08.png
+  artifactKey: Guid(a1ca8dd6d3765f7409024d4d5b0ffef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA08.png using Guid(a1ca8dd6d3765f7409024d4d5b0ffef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765627e29582ddf923490701b27e3083') in 0.020761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ToonKids/Textures/TKBHairDN.png
+  artifactKey: Guid(75f5cf34a8b4c234abd9e10b01ba894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBHairDN.png using Guid(75f5cf34a8b4c234abd9e10b01ba894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a817862d0b3a31bdbc3d7150942045de') in 0.024920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKDress14.png
+  artifactKey: Guid(26ddec0673eba7c44b40ece8c383f8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress14.png using Guid(26ddec0673eba7c44b40ece8c383f8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92d449f0eaaf15d0daf725a871ae52f') in 0.020722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/glassesAN.png
+  artifactKey: Guid(b159231f6afbf524d855f2ff3b12161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/glassesAN.png using Guid(b159231f6afbf524d855f2ff3b12161f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b69a9c0c343d51f8244d2cf7f91f443') in 0.020331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Textures/TKDress09.png
+  artifactKey: Guid(635e151808476d6419c28008678c9de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress09.png using Guid(635e151808476d6419c28008678c9de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e62013d759367148f80055af970c6c') in 0.020605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToonKids/Textures/TKDress08.png
+  artifactKey: Guid(5fd69af318e3ea34eaac216430dd4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress08.png using Guid(5fd69af318e3ea34eaac216430dd4296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1378368d1269a5c9b05c21b534249d8') in 0.021363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKBHairC01.png
+  artifactKey: Guid(fb79d1996c558044f83a6723b78bf009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBHairC01.png using Guid(fb79d1996c558044f83a6723b78bf009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfe7032053d24429a3d5dc3ad0ad669') in 0.021304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA03.png
+  artifactKey: Guid(b2fe5e11347e4d24682bdbc4a318b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA03.png using Guid(b2fe5e11347e4d24682bdbc4a318b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d2b6f0b010adfe98ab218bd12dee78') in 0.021884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Textures/TKDress18.png
+  artifactKey: Guid(dddf2585a5ce37e488b7d2ba0b71e509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress18.png using Guid(dddf2585a5ce37e488b7d2ba0b71e509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d751a92c26f233f6c2a00885261b4a') in 0.019952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA05.png
+  artifactKey: Guid(5cfb35b3ddb14dd4597b731a840a4259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA05.png using Guid(5cfb35b3ddb14dd4597b731a840a4259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4632ba174ffe5b0e1868ac8fbd28233d') in 0.021575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Textures/TKBHairB01.png
+  artifactKey: Guid(629fae8027b3155478ed322b5140f0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBHairB01.png using Guid(629fae8027b3155478ed322b5140f0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de944ac2c96cc6d9eeacf78c6942f79c') in 0.021875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Textures/TKDress12.png
+  artifactKey: Guid(6d01773a2e399a242bf65c7f3621c316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress12.png using Guid(6d01773a2e399a242bf65c7f3621c316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029978e34bc3c912f6d9630db1c1b542') in 0.021844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/glassesF01.png
+  artifactKey: Guid(f91028fbd2bfed74aa89d1a011f81fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/glassesF01.png using Guid(f91028fbd2bfed74aa89d1a011f81fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8fb95f33c6375cc29f86f0c4df5d6f') in 0.022824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ToonKids/Textures/TKDress16.png
+  artifactKey: Guid(f4b2b94e764b501459a9feaaaaec19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress16.png using Guid(f4b2b94e764b501459a9feaaaaec19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41d7a601dd3ce69e3235597d2c0edee') in 0.021815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToonKids/Textures/TKFeetB09.png
+  artifactKey: Guid(e7a42e6d6024e1d48b1dca1538fdfa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetB09.png using Guid(e7a42e6d6024e1d48b1dca1538fdfa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa959f0529da63ba8a58260443d8be6') in 0.019202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Textures/TKFeetB11.png
+  artifactKey: Guid(dded88b9a438cd34da51244fd92ba6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetB11.png using Guid(dded88b9a438cd34da51244fd92ba6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc12125ff4b1dff7bc2d262e536ef45') in 0.018567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Textures/TKGHairD01.png
+  artifactKey: Guid(1cb7ad45036109d4a8a7ab8c7ee0bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGHairD01.png using Guid(1cb7ad45036109d4a8a7ab8c7ee0bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e8b2614481efcdd0a6bd2f59493054') in 0.024436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ToonKids/Textures/TKBoyB03N.png
+  artifactKey: Guid(bddd85401517b9a488bae47a92965929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyB03N.png using Guid(bddd85401517b9a488bae47a92965929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37237be1308b272a675e6a1278a34387') in 0.027924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonKids/Textures/TKGirlB03.png
+  artifactKey: Guid(07437c92f5f3c7f4cb88b115d0f5b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlB03.png using Guid(07437c92f5f3c7f4cb88b115d0f5b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a543c0616774e967f76601ca7c9e28e') in 0.027726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ToonKids/Textures/TKGirlA03N.png
+  artifactKey: Guid(919e827179e12ce4e93804a96c062129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlA03N.png using Guid(919e827179e12ce4e93804a96c062129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fbe22101279e91ba299a57a3c39d5a') in 0.028863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA02.png
+  artifactKey: Guid(b1e9960ed2697464b85e1a500da40e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA02.png using Guid(b1e9960ed2697464b85e1a500da40e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb82a05f62227fd38810d5ef5930b93a') in 0.024904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Textures/eye3.png
+  artifactKey: Guid(bf6ea35b48903434793892d4efe3125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/eye3.png using Guid(bf6ea35b48903434793892d4efe3125e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c735c11cae7a6ad3d48e5ea73801eef5') in 0.032096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Textures/TKDress03.png
+  artifactKey: Guid(597a2113b768b064686772121a0c8350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress03.png using Guid(597a2113b768b064686772121a0c8350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4abd5bb641805e730965410fe0556eb') in 0.026960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA07.png
+  artifactKey: Guid(28926a62f3db47d49ab62b566b42ad65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA07.png using Guid(28926a62f3db47d49ab62b566b42ad65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe5c7c9f6d147295116d68f067a0bb7') in 0.030163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ToonKids/Textures/TKBHairEN.png
+  artifactKey: Guid(dcfdbf6246ae0ca46bde9f3e52461d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBHairEN.png using Guid(dcfdbf6246ae0ca46bde9f3e52461d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4a40c2fd2702027e8a80b2e43b4dc9') in 0.025351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKFeetC05.png
+  artifactKey: Guid(aa872f996315fb44f95e12d0231ea7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetC05.png using Guid(aa872f996315fb44f95e12d0231ea7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5eec82a6ff9d57a3be8f638b69da64') in 0.020059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Textures/TKDress01.png
+  artifactKey: Guid(2d1d059402ba88347b27c6bfd7eb1d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress01.png using Guid(2d1d059402ba88347b27c6bfd7eb1d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108a6a80fa73bc072ef33c8676979d76') in 0.023462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ToonKids/Textures/TKDress06.png
+  artifactKey: Guid(a131c38123d7c3d4cb15cfb623f23b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress06.png using Guid(a131c38123d7c3d4cb15cfb623f23b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3517aa24cf9324434ccbbdeb7bd1ac') in 0.024890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Textures/glassesDN.png
+  artifactKey: Guid(f96c71de1f94a8d4781d71d9e7876a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/glassesDN.png using Guid(f96c71de1f94a8d4781d71d9e7876a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db70db3e01d1243a97cd0118c1437387') in 0.021057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/ToonKids/Textures/TKDress17.png
+  artifactKey: Guid(850813cb2c7861a499f26d897f4f656c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress17.png using Guid(850813cb2c7861a499f26d897f4f656c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9051723369bafa7cb440007e8fc7d502') in 0.019210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKGHairAN.png
+  artifactKey: Guid(dadf9a7073364004f997e58cbf47cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGHairAN.png using Guid(dadf9a7073364004f997e58cbf47cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa3ba94fa98f7f395364403f8f684d0') in 0.024957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Textures/TKBoyAN.png
+  artifactKey: Guid(f4542b858ec143843bee92dbf51c4d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyAN.png using Guid(f4542b858ec143843bee92dbf51c4d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c531b322964e6c33058475859564efd') in 0.028787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ToonKids/Textures/glassesA01.png
+  artifactKey: Guid(c34e820425a89e84ba66bea81d10a24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/glassesA01.png using Guid(c34e820425a89e84ba66bea81d10a24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd134c735ac4c860834c30dbcd8ee7b92') in 0.038902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Textures/TKBoyB02.png
+  artifactKey: Guid(3b7dbedc673028340a29bbf0a5d32528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyB02.png using Guid(3b7dbedc673028340a29bbf0a5d32528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5d9db5c7679840ffb113e89a652bfa') in 0.024683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Textures/TKGirlC01.png
+  artifactKey: Guid(bc6c01209428f4f4bafe33d5fd39eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlC01.png using Guid(bc6c01209428f4f4bafe33d5fd39eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb68ccef2b49a891e6a720e5c764302') in 0.024353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA11.png
+  artifactKey: Guid(3967da7cc2eb92c49bc40bd31c72d4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA11.png using Guid(3967da7cc2eb92c49bc40bd31c72d4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e6ec20540e5db2b64f7b5d2201d32d') in 0.021521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ToonKids/Textures/TKFeetC08.png
+  artifactKey: Guid(582d889274c1d554e8fa522f7250fe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetC08.png using Guid(582d889274c1d554e8fa522f7250fe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985739cbcac80790d67899364d3334fb') in 0.020814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToonKids/Textures/TKGHairEN.png
+  artifactKey: Guid(f48322afd5fe53a46afa423491b7ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGHairEN.png using Guid(f48322afd5fe53a46afa423491b7ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56be5f5e208602746d90d09a78ddf037') in 0.027007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Textures/TKGHairCN.png
+  artifactKey: Guid(b13a45900bb7e794cb10fff0a478aab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGHairCN.png using Guid(b13a45900bb7e794cb10fff0a478aab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a46a446a871c4925547152e0cb5817') in 0.025399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonKids/Textures/TKGirlA03.png
+  artifactKey: Guid(8f6c7c80b2266094584b384a62c46903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlA03.png using Guid(8f6c7c80b2266094584b384a62c46903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac66181523727103935ab8c4142719b') in 0.022275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA12.png
+  artifactKey: Guid(b2f9890c5690f784388a49ed887b9ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA12.png using Guid(b2f9890c5690f784388a49ed887b9ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5951661f4720db53ebb549aff6ed418f') in 0.021119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Textures/TKFeetB03.png
+  artifactKey: Guid(317762c9651af184bb07969ec022dad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetB03.png using Guid(317762c9651af184bb07969ec022dad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f146fcdfdb456f82571b3a571952a08') in 0.022079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Textures/glassesFN.png
+  artifactKey: Guid(045e591efb97eb14c895bf5467b50806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/glassesFN.png using Guid(045e591efb97eb14c895bf5467b50806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54cdf077210306c98206017ae1c86c5') in 0.029655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA09.png
+  artifactKey: Guid(82254c466502e8a4f867de85075542be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA09.png using Guid(82254c466502e8a4f867de85075542be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd711953db780df5657c7dca9656fa3a3') in 0.020664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKFeetC09.png
+  artifactKey: Guid(f50bda9f6859f294eb6a6bad92029ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetC09.png using Guid(f50bda9f6859f294eb6a6bad92029ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a27b2904ae5a640a0e577ffac4c723e') in 0.021147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToonKids/Textures/TKBHairCN.png
+  artifactKey: Guid(67aaedcf100823645842296c4541ae79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBHairCN.png using Guid(67aaedcf100823645842296c4541ae79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c552683a59f1b2f51ebcde2e52097d9') in 0.022025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Textures/TKFeetB04.png
+  artifactKey: Guid(b6d1d28cc5e94924d8e6c35d6969a55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetB04.png using Guid(b6d1d28cc5e94924d8e6c35d6969a55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4c410fc8e1032686047442ed9d992e') in 0.020078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ToonKids/Textures/TKBoyE03N.png
+  artifactKey: Guid(02f86d660bc1b4d4f950a5e86c320707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyE03N.png using Guid(02f86d660bc1b4d4f950a5e86c320707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42875e94e6977528179036ede2ed0d27') in 0.024588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Textures/eyeem.png
+  artifactKey: Guid(5522cd98bef4b6e49a69a3af642d22fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/eyeem.png using Guid(5522cd98bef4b6e49a69a3af642d22fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a237b74a44255c1226b7d40ce9e373') in 0.018038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Textures/TKFeetC01.png
+  artifactKey: Guid(bcc60dad911cab44c952b9bff2b6423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetC01.png using Guid(bcc60dad911cab44c952b9bff2b6423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ed09a99194fca502484595ce663564') in 0.020005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKeyebrows.png
+  artifactKey: Guid(adcff7b8ad4dbcd4a84b9749bb4fcdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKeyebrows.png using Guid(adcff7b8ad4dbcd4a84b9749bb4fcdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73625497baa3cc436376cd8dcb9c46b') in 0.019085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Textures/TKGirlA01.png
+  artifactKey: Guid(a4adc9a7c1b39334a9982f6cc1a1cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlA01.png using Guid(a4adc9a7c1b39334a9982f6cc1a1cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57d96a6efdaee306f964b2e97251d42') in 0.020852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ToonKids/Textures/TKGHairC01.png
+  artifactKey: Guid(7252bdef603b15a459032b792596b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGHairC01.png using Guid(7252bdef603b15a459032b792596b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de189193ff42299a099f140bc54f467') in 0.024792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ToonKids/Textures/TKGHairE01.png
+  artifactKey: Guid(ba8715011fdfd3f4abb1c553f61e7038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGHairE01.png using Guid(ba8715011fdfd3f4abb1c553f61e7038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ef4aadb74d58dea7c6d32610298c26') in 0.021535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Textures/glassesEN.png
+  artifactKey: Guid(199f1eba26a532341b3fd08d853de0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/glassesEN.png using Guid(199f1eba26a532341b3fd08d853de0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63ac36e9093c2a1689db7530b1217fe') in 0.019215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/ToonKids/Textures/TKDress05.png
+  artifactKey: Guid(837ab878fcdee6741abbac5e4fff5024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKDress05.png using Guid(837ab878fcdee6741abbac5e4fff5024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17df4c9addfcea1e0c033578f517440c') in 0.019568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToonKids/Textures/TKFeetB06.png
+  artifactKey: Guid(cdfe1b6388146ac46a1b9cd89e1da3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetB06.png using Guid(cdfe1b6388146ac46a1b9cd89e1da3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b08392093a4cd4436076d432ab9d64') in 0.019878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKBoyA02.png
+  artifactKey: Guid(eefac72b88be36a4bbf3a1f8d09a8ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKBoyA02.png using Guid(eefac72b88be36a4bbf3a1f8d09a8ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eec860e02d45d1a09ea01df6e83a3c6') in 0.022485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKFeetA04.png
+  artifactKey: Guid(8b735cc62a998a94bb8b0f03ab531ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetA04.png using Guid(8b735cc62a998a94bb8b0f03ab531ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6689addbbb8d5030f2287b122ef769') in 0.019581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Textures/TKFeetC06.png
+  artifactKey: Guid(43d23c79e3f0f574c86b5f8ee07f24b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKFeetC06.png using Guid(43d23c79e3f0f574c86b5f8ee07f24b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfb98f2a8c34b845b2b57ba3c005768') in 0.020404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.772993 seconds.
+  path: Assets/Custom Animations and controllers/BlueCelebration.prefab
+  artifactKey: Guid(a483083b9adb6c94f8307ac738d7e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom Animations and controllers/BlueCelebration.prefab using Guid(a483083b9adb6c94f8307ac738d7e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71236f45072f9718dfb29b8e03117659') in 2.137831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Images
+  artifactKey: Guid(eb70bb0f5a352de4baebb34034d99d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(eb70bb0f5a352de4baebb34034d99d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52811bd4ce2c156b79982a1263fbbf8c') in 0.008086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Images/Tile.png
+  artifactKey: Guid(d8d15e48dac6799478724bdeb1b947c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Tile.png using Guid(d8d15e48dac6799478724bdeb1b947c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dda2a791184746014f47951c2ac4d11') in 0.055567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Custom Animations and controllers/Red.prefab
+  artifactKey: Guid(4e3e39a184f1572409d63381cf955b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom Animations and controllers/Red.prefab using Guid(4e3e39a184f1572409d63381cf955b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fc084f742062122678d85e1c65e474') in 0.252777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Images/Dragons.png
+  artifactKey: Guid(c595ecc33b736014fa62af3071e20851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Dragons.png using Guid(c595ecc33b736014fa62af3071e20851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a412c0636649b5a6810b2a8cab14bbba') in 0.180288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Images/Trophy.png
+  artifactKey: Guid(99f7aa457aca5014087d80022da86c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Trophy.png using Guid(99f7aa457aca5014087d80022da86c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4128f3bae98b14f79edd62d82a3f9eb') in 0.025838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Images/Balloon.png
+  artifactKey: Guid(21ebcd1cd481ac043af7a01eedc76c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Balloon.png using Guid(21ebcd1cd481ac043af7a01eedc76c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8fb298b07bccc8e53f9bf86ef5c870') in 0.030662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Images/WhiteBlankButton.png
+  artifactKey: Guid(4f042e8b725040c4585d0f00562faf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/WhiteBlankButton.png using Guid(4f042e8b725040c4585d0f00562faf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4fc0202a658d43c271abb5c481dd35') in 0.033162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Images/Buttons.png
+  artifactKey: Guid(8b817651c800528429117db4698664a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Buttons.png using Guid(8b817651c800528429117db4698664a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7eb96a923944b9acc13efc03f5a059e') in 0.163100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Image.prefab
+  artifactKey: Guid(1cd653f87ccfe5140afa49e497ec72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Image.prefab using Guid(1cd653f87ccfe5140afa49e497ec72c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f237db2f8ef6e9ea08041db908859f8') in 0.011801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Images/star.png
+  artifactKey: Guid(0162e05017a94954d99853dc88ba0173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/star.png using Guid(0162e05017a94954d99853dc88ba0173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf36b0d674f86908dfcde6c6067a1702') in 0.022091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Images/Games-Books.png
+  artifactKey: Guid(98942cefda9ebaa448ffbf56f5b0cda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Games-Books.png using Guid(98942cefda9ebaa448ffbf56f5b0cda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebb9f8c1898f48c8f4a0d6592f7148f') in 0.093366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031743 seconds.
+  path: Assets/Malbers Animations
+  artifactKey: Guid(0978bfaaae55d0d4ba6c264c68bcfa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations using Guid(0978bfaaae55d0d4ba6c264c68bcfa79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702db795d13fe9732a125784bbf8ffa6') in 0.007833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041589 seconds.
+  path: Assets/Malbers Animations/README!.asset
+  artifactKey: Guid(8357ab50d0248b347a61fe6d6b730ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/README!.asset using Guid(8357ab50d0248b347a61fe6d6b730ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efcb8888052afea280d8f352135e23e') in 0.017777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.827226 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(4b95be55d7ff6744495b125589c705f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(4b95be55d7ff6744495b125589c705f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a559376538ee9767832d678a6704149') in 1.079158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(19eef479f6743cd42b22da3acda969ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Target.prefab using Guid(19eef479f6743cd42b22da3acda969ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11da53f38720fcb8d90c78fb8ace05e') in 0.861096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.815889 seconds.
+  path: Assets/ToonKids/Scenes/Data/floor.mat
+  artifactKey: Guid(4b0921f542bf20d46aa60f514946130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Scenes/Data/floor.mat using Guid(4b0921f542bf20d46aa60f514946130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0433b0d40933e65fc6a3164cfaf31e') in 0.071057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToonKids/Scenes/Data/Text_keys.png
+  artifactKey: Guid(a1cb802ef7c43b44ca53b88d24d2f3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Scenes/Data/Text_keys.png using Guid(a1cb802ef7c43b44ca53b88d24d2f3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09da5c58363550bfb48f31eee03ba495') in 0.022826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ToonKids/Scenes/Data/floor.png
+  artifactKey: Guid(50648aca69b3e9043b455f908e0ad40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Scenes/Data/floor.png using Guid(50648aca69b3e9043b455f908e0ad40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9219f353b48ffdd17d2cb2a2b4b6d9f') in 0.013682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Scenes/Data/keys2D.png
+  artifactKey: Guid(51cb639ea7614014c8f3f8086f648ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Scenes/Data/keys2D.png using Guid(51cb639ea7614014c8f3f8086f648ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cba96274838fdaa37a1cb072eaa91b9') in 0.015739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Scenes/Data/Text_sitdown.png
+  artifactKey: Guid(ed40feeb2e4994c4082fd8a4846d79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Scenes/Data/Text_sitdown.png using Guid(ed40feeb2e4994c4082fd8a4846d79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f78a606dcbbea703cf6b54b34197c1') in 0.014802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Scenes/Data/keys3D.mat
+  artifactKey: Guid(ba469feda359b7d47bbe990076bbbca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Scenes/Data/keys3D.mat using Guid(ba469feda359b7d47bbe990076bbbca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262b570fca13cb0db8e914789f00ba53') in 0.043026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Scenes/Data/Text_actions.png
+  artifactKey: Guid(e0b2dc4f93ad43d40b57f965a385fe08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Scenes/Data/Text_actions.png using Guid(e0b2dc4f93ad43d40b57f965a385fe08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a230bb15e6c6cd063d533d80ad4ff4f2') in 0.018589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Scenes/Data/stairs.FBX
+  artifactKey: Guid(e878f03a2856f1e4794a48e9e7f3f04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Scenes/Data/stairs.FBX using Guid(e878f03a2856f1e4794a48e9e7f3f04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e13b303dae9811e823e4e5b352e1bd') in 0.248685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.421652 seconds.
+  path: Assets/ToonKids/Textures/TKGirlC03.png
+  artifactKey: Guid(ff66f091423756d4ca06a9c8bc4b87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlC03.png using Guid(ff66f091423756d4ca06a9c8bc4b87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dad616c0cdf5954143a57361f0cb01') in 0.018868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ToonKids/Textures/TKGirlE02.png
+  artifactKey: Guid(96e464aef4ad2c24eb813744c6dfa399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlE02.png using Guid(96e464aef4ad2c24eb813744c6dfa399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5740df83b66f6a45e5cc5ee608584df4') in 0.027582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToonKids/Textures/TKGirlD03.png
+  artifactKey: Guid(53ece636eac10814f8a4cc83320aa466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlD03.png using Guid(53ece636eac10814f8a4cc83320aa466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee138ae91b9911de8f818b0a7161ff0') in 0.030152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Textures/TKGirlDN.png
+  artifactKey: Guid(4b45c8422d9e3974b8739babfb762cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlDN.png using Guid(4b45c8422d9e3974b8739babfb762cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e16c5aeb9f4e4e44ddfdb839b4f867') in 0.024685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ToonKids/Textures/TKGirlE03.png
+  artifactKey: Guid(142b6688301591549adbbe0aa126960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlE03.png using Guid(142b6688301591549adbbe0aa126960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9822b1a5d04d6c26e071b1040cf63b') in 0.023894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonKids/Textures/TKGirlD01.png
+  artifactKey: Guid(c215392f411bb4346b86c8b3ee3aca86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlD01.png using Guid(c215392f411bb4346b86c8b3ee3aca86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3c5cd0427396f813744c04eca07f8d') in 0.018366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Textures/TKGirlEN.png
+  artifactKey: Guid(77268d6f69f2bd440a7157bad5b5d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlEN.png using Guid(77268d6f69f2bd440a7157bad5b5d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af97bfec787fd9eab7169b5d990000bf') in 0.019948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Textures/TKGirlE03N.png
+  artifactKey: Guid(f444200f063703543baeae64273c08c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKGirlE03N.png using Guid(f444200f063703543baeae64273c08c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36060a7f6643ea9f913dda60d0b31f7') in 0.020268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.958034 seconds.
+  path: Assets/ToonKids/Textures/TKHatA02.png
+  artifactKey: Guid(febcea2303c8e8b4bbc251931595d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKHatA02.png using Guid(febcea2303c8e8b4bbc251931595d107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece0533ce84d6d1aa89fbbe35674d124') in 0.020403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKLegs11.png
+  artifactKey: Guid(d96c9929fc60e214b9f9247d5ef4318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs11.png using Guid(d96c9929fc60e214b9f9247d5ef4318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c32a23e59ee212d8f171f7d7259f9b') in 0.015957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKLegs18.png
+  artifactKey: Guid(39d3bf792fd34704ab27f6a0281c32cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs18.png using Guid(39d3bf792fd34704ab27f6a0281c32cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d72e8bdc35eded2025748d63c16d78') in 0.016464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonKids/Textures/TKHatB04.png
+  artifactKey: Guid(27ebb794c5425354caa1722c17ab5ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKHatB04.png using Guid(27ebb794c5425354caa1722c17ab5ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302c6c12459288a137e54752ef349aba') in 0.014589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Textures/TKSweater04.png
+  artifactKey: Guid(7aa95dc359dfe344e888f68716c47377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKSweater04.png using Guid(7aa95dc359dfe344e888f68716c47377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b393d8904eb15cbe3b472a2a51a5d2ea') in 0.014377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Textures/TKTshirt05.png
+  artifactKey: Guid(06d1f58c6ecd2fd468ae63083c390855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKTshirt05.png using Guid(06d1f58c6ecd2fd468ae63083c390855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8b7501133918a6fcf726bbe2043a1e') in 0.019910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonKids/Textures/TKLegs21.png
+  artifactKey: Guid(707b0e73adaaa3e479ddb0696ad25cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs21.png using Guid(707b0e73adaaa3e479ddb0696ad25cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045024ed26c1d91e679d5105376d9f34') in 0.018794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Textures/TKteeth03.png
+  artifactKey: Guid(b6a7c132b76fb5545bb07a7f8454215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKteeth03.png using Guid(b6a7c132b76fb5545bb07a7f8454215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c633988dade91b85da74caa7b3f4760a') in 0.014596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Textures/TKLegs02.png
+  artifactKey: Guid(1c2b619cbb816f744892791216661213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs02.png using Guid(1c2b619cbb816f744892791216661213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a50e212d656c14ce736aa4ef54cdd7') in 0.016248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKTshirt13.png
+  artifactKey: Guid(b0edee4cc9099cf46bfefe25bbdceeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKTshirt13.png using Guid(b0edee4cc9099cf46bfefe25bbdceeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73526d6510d10f7a30cc99ce3de68222') in 0.015447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ToonKids/Textures/TKTshirt11.png
+  artifactKey: Guid(da212fbf49257214ea41f624a8ee0e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKTshirt11.png using Guid(da212fbf49257214ea41f624a8ee0e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9bfd3609fc2b5e8ea7ac0bfc05b609') in 0.014656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Textures/TKTshirt04.png
+  artifactKey: Guid(de525a5165cd50e49b671c020c8d76e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKTshirt04.png using Guid(de525a5165cd50e49b671c020c8d76e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e56889dc9f38909adf54f4a39d468d0') in 0.014240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ToonKids/Textures/TKHatA04.png
+  artifactKey: Guid(0a5af4e08b0d04d48bb9031e0bbdf4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKHatA04.png using Guid(0a5af4e08b0d04d48bb9031e0bbdf4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb8ab144241dedd84eb3297974525d2') in 0.016452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ToonKids/Textures/TKLegs08.png
+  artifactKey: Guid(b0c7075bf67670b4c9a4e717fe8428c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs08.png using Guid(b0c7075bf67670b4c9a4e717fe8428c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae70d6721d94a109658347c29039798') in 0.016350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonKids/Textures/TKShirt09.png
+  artifactKey: Guid(a83ed00ba663d7d4e939c5655df56400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKShirt09.png using Guid(a83ed00ba663d7d4e939c5655df56400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e350983dbc855a3d22c82fe274717e') in 0.017636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKTshirt03.png
+  artifactKey: Guid(9fc335f65a3ff074b8d0874430050ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKTshirt03.png using Guid(9fc335f65a3ff074b8d0874430050ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb78b86a6856221fd972e7f051660d7') in 0.017145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Textures/TKHatBN.png
+  artifactKey: Guid(ba0b46d2773427d479848151a0e626f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKHatBN.png using Guid(ba0b46d2773427d479848151a0e626f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a9cc7b392f463a519df210c0c6b52e') in 0.015933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ToonKids/Textures/TKShirt02.png
+  artifactKey: Guid(10c094b580ac2934ca730e9a8a7368ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKShirt02.png using Guid(10c094b580ac2934ca730e9a8a7368ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4594f206f6b3b699f38118ea54b5ed') in 0.016035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Textures/TKShirt11.png
+  artifactKey: Guid(149886af009e9464ba8b018efe390b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKShirt11.png using Guid(149886af009e9464ba8b018efe390b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fa6dd488a4a87b1938ee4192e8dea2') in 0.017265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKShirt13.png
+  artifactKey: Guid(e85c9403c4a1c5047a82e7fcbbc46892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKShirt13.png using Guid(e85c9403c4a1c5047a82e7fcbbc46892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23c3861e20d5eaefefaf4049afd027e') in 0.018455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKSweater08.png
+  artifactKey: Guid(10b42190c12a9a54ea559010dd09d980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKSweater08.png using Guid(10b42190c12a9a54ea559010dd09d980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99221a2701bbd897aec06e33c407370') in 0.020413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Textures/TKShirt03.png
+  artifactKey: Guid(712c8814adc3e1a4cba40b49356c80d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKShirt03.png using Guid(712c8814adc3e1a4cba40b49356c80d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e414fb3e77ef74de0b4257051cb451') in 0.015095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ToonKids/Textures/TKHatB01.png
+  artifactKey: Guid(4cc9b4f75b1d09242b3627dab0be7c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKHatB01.png using Guid(4cc9b4f75b1d09242b3627dab0be7c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830d3ba4430053fad19a52d21f634ae2') in 0.018267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToonKids/Textures/TKLegs14.png
+  artifactKey: Guid(2d825adc156a16144bc5bb01b62a1e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs14.png using Guid(2d825adc156a16144bc5bb01b62a1e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609b0293d5bccb4a13be9b565f21ec52') in 0.020185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Textures/TKShirt04.png
+  artifactKey: Guid(4c95e0922f7e1304cba1a4c0928bf1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKShirt04.png using Guid(4c95e0922f7e1304cba1a4c0928bf1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7456931ebeb00674865d03bfb3654a3b') in 0.016846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonKids/Textures/TKLegs06.png
+  artifactKey: Guid(b471eea8d698ef84f9094be925f8c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs06.png using Guid(b471eea8d698ef84f9094be925f8c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef391bd82c61cb844559a285aee1e6e5') in 0.019751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKLegs19.png
+  artifactKey: Guid(68335e92accba4748b62d7cdac6b7992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs19.png using Guid(68335e92accba4748b62d7cdac6b7992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d71a66c43125a2d18d1ef19aca1d158') in 0.015204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Textures/TKShirt05.png
+  artifactKey: Guid(37376690d6776bf4ebf89c7955784e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKShirt05.png using Guid(37376690d6776bf4ebf89c7955784e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7473ede99c9ee5468e3431f98f26c33b') in 0.017664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Textures/TKSweater03.png
+  artifactKey: Guid(f95408d83ea55cf4d885edd549a892b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKSweater03.png using Guid(f95408d83ea55cf4d885edd549a892b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64969dece0dd37374ddff39bf4a33e7b') in 0.013824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ToonKids/Textures/TKHatA03.png
+  artifactKey: Guid(94bc400127c7218409c97403958b2dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKHatA03.png using Guid(94bc400127c7218409c97403958b2dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4047f510b8d810590571542db87066b5') in 0.013177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Textures/TKLegs05.png
+  artifactKey: Guid(af6bb17a996ba7942a9822711906d148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs05.png using Guid(af6bb17a996ba7942a9822711906d148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86166e1f17104fa6ed4d15e12ff834c0') in 0.013834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ToonKids/Textures/TKHatB03.png
+  artifactKey: Guid(d25a9e3d012a7ea40a29201286764513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKHatB03.png using Guid(d25a9e3d012a7ea40a29201286764513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4deac300225aa685bec71f32f07fe08') in 0.021291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ToonKids/Textures/TKSweater07.png
+  artifactKey: Guid(b52c47728ec9fae4c8e98669871a8c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKSweater07.png using Guid(b52c47728ec9fae4c8e98669871a8c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e4b364f28170627537842397d47ec0') in 0.018521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/ToonKids/Textures/TKLegs04.png
+  artifactKey: Guid(0ed821a2b5316d94bb64159c1220e674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs04.png using Guid(0ed821a2b5316d94bb64159c1220e674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e0e84d8ee96226913d791ff34fea68') in 0.022371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ToonKids/Textures/TKLegs16.png
+  artifactKey: Guid(cd1da6a6c01a8344eb0db1e2848ee280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKLegs16.png using Guid(cd1da6a6c01a8344eb0db1e2848ee280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510437bfc57ca911a2b9b822bcc39cd5') in 0.021270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Textures/TKSweater05.png
+  artifactKey: Guid(d92e09015b10177459a57d42c3529e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Textures/TKSweater05.png using Guid(d92e09015b10177459a57d42c3529e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fce7c92add5802b09d1b1e55cc31e03') in 0.019581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.032845 seconds.
+  path: Assets/ToonKids/Prefabs/Players/2D/TKBoyB.prefab
+  artifactKey: Guid(d8cdd8397106b7346a7fb23859400605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/2D/TKBoyB.prefab using Guid(d8cdd8397106b7346a7fb23859400605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dd11a479816c39109c2c04fba84305') in 0.345133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Prefabs/Players/2D/TKGirlC.prefab
+  artifactKey: Guid(fbfe462624541254881db12646b8c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/2D/TKGirlC.prefab using Guid(fbfe462624541254881db12646b8c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38551b7b09cd3caa84ad10a8c1cfe77') in 0.289112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ToonKids/Prefabs/Players/2D/TKBoyC.prefab
+  artifactKey: Guid(01abeb17baadcd44c96d1e819f49dcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/2D/TKBoyC.prefab using Guid(01abeb17baadcd44c96d1e819f49dcab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80eadf9fd834cef0891d4900f44dfe14') in 0.200114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Prefabs/Players/2D/TKBoyD.prefab
+  artifactKey: Guid(e10ce80a1c6f7e540bf0570b83e3bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/2D/TKBoyD.prefab using Guid(e10ce80a1c6f7e540bf0570b83e3bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee9d0aa38424a9dbc1de8f26bee79ad') in 0.193719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ToonKids/Prefabs/Players/2D/TKGirlB.prefab
+  artifactKey: Guid(28442475e2df7b6489cccc7457999bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/2D/TKGirlB.prefab using Guid(28442475e2df7b6489cccc7457999bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631cb09a7993048645859c9022f8ea3a') in 0.231087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.606272 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKBoyB.prefab
+  artifactKey: Guid(4d348334a68165f44822e8ea88b0cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKBoyB.prefab using Guid(4d348334a68165f44822e8ea88b0cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cea9e74892dd777889d6818c2c57b1') in 0.195498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlC.prefab
+  artifactKey: Guid(d15516e27297cbf4b801af0a206b8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlC.prefab using Guid(d15516e27297cbf4b801af0a206b8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb07242526e8952027172eeafcb9611') in 0.278763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlB.prefab
+  artifactKey: Guid(ac651e72850192c4cb2f7d8bab2d0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlB.prefab using Guid(ac651e72850192c4cb2f7d8bab2d0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe243c7d5f28350ad2f5503770ac01c6') in 0.229289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlE.prefab
+  artifactKey: Guid(7cbab574193cacc419ea12d4aa87841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlE.prefab using Guid(7cbab574193cacc419ea12d4aa87841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b80c0a34c41437788f28e04285d4499') in 0.236013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlA.prefab
+  artifactKey: Guid(bda0d39d60b06ed4881790305ca8d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlA.prefab using Guid(bda0d39d60b06ed4881790305ca8d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0817b1f0423490e259a668802700e398') in 0.207806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.977310 seconds.
+  path: Assets/ToonKids/Models/TKBoyA.FBX
+  artifactKey: Guid(1a995c0d6710dda409fb0490d929f127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/TKBoyA.FBX using Guid(1a995c0d6710dda409fb0490d929f127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccad7c746838d2460c77033febd8e2f') in 0.318775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Models/TKGirlE.FBX
+  artifactKey: Guid(e74307b3184deea45a8aeadab43e4e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/TKGirlE.FBX using Guid(e74307b3184deea45a8aeadab43e4e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4261398189869650113bef028d6a76c5') in 0.372277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToonKids/Models/TKBoyB.FBX
+  artifactKey: Guid(dc1646638a1df3a498cb1c1bceeaa1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/TKBoyB.FBX using Guid(dc1646638a1df3a498cb1c1bceeaa1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bfcedf2071160ad2a0c842b298e310') in 0.319709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToonKids/Models/TKGirlD.FBX
+  artifactKey: Guid(b3926c40f05f86b4c9cd96a015644472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/TKGirlD.FBX using Guid(b3926c40f05f86b4c9cd96a015644472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ad278fe5b55579fd44a22066640f00') in 0.383271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ToonKids/Models/TKGirlB.FBX
+  artifactKey: Guid(91db25e1a5c29104eabf30aa9e77c9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/TKGirlB.FBX using Guid(91db25e1a5c29104eabf30aa9e77c9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9651a9a32e9ddd52d03e8fbd4427b2d3') in 0.381727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Models/TKBoyD.FBX
+  artifactKey: Guid(dda2e7200a913224bb1e388b32835882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/TKBoyD.FBX using Guid(dda2e7200a913224bb1e388b32835882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627ad11b14148b53510a64c157ed2d58') in 0.296306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ToonKids/Models/TKBoyC.FBX
+  artifactKey: Guid(fb366e042cbb35f42b4792feb2ad629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/TKBoyC.FBX using Guid(fb366e042cbb35f42b4792feb2ad629c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29144470b609e76c14d8245e697381c4') in 0.302716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.984998 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairA01.mat
+  artifactKey: Guid(12864712e773d9745959e028b7695f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairA01.mat using Guid(12864712e773d9745959e028b7695f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca67c178a03c383fa92d0cf4679eef5') in 0.023280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlD02.mat
+  artifactKey: Guid(87001425d32ff884087277677a3151ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlD02.mat using Guid(87001425d32ff884087277677a3151ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db93d5fe620e0528908f87dd4fa12bc0') in 0.053454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlC03.mat
+  artifactKey: Guid(a473fbeb5925db047ae294c4d8603a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlC03.mat using Guid(a473fbeb5925db047ae294c4d8603a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791a8f380f76c852dba9596fe8ab8e23') in 0.018216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairA03.mat
+  artifactKey: Guid(490b18bcc64857345abfd71398e64229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairA03.mat using Guid(490b18bcc64857345abfd71398e64229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5179a41f34ca41526b518c895291f76b') in 0.026239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlB04.mat
+  artifactKey: Guid(76c1dbd2337efd042adba227b88af766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlB04.mat using Guid(76c1dbd2337efd042adba227b88af766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c273520e593a8889e235506bc7e1c89') in 0.024085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlE02.mat
+  artifactKey: Guid(7b81ad7f9e96a2c4ab9ef220c5fe094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlE02.mat using Guid(7b81ad7f9e96a2c4ab9ef220c5fe094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30fd8301f930f4c886c472d8561f6b9') in 0.016887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairG01.mat
+  artifactKey: Guid(1d2a06cab77760e45b09085fa00dec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairG01.mat using Guid(1d2a06cab77760e45b09085fa00dec37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227175269085dd1ad46e8211f20a14dc') in 0.031894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlD01.mat
+  artifactKey: Guid(824aed5ecf91ab14fb9bcbfe76ef7a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlD01.mat using Guid(824aed5ecf91ab14fb9bcbfe76ef7a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5820d5fc3332a78f7e243ca7a84828b2') in 0.014763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairE02.mat
+  artifactKey: Guid(33e9bd685b8c98847be272837e91be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairE02.mat using Guid(33e9bd685b8c98847be272837e91be40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeff0b54c1aafbb874e3626faf052a2') in 0.018387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlA01.mat
+  artifactKey: Guid(977c9d156461cfb4ba4eb9ac585fb83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlA01.mat using Guid(977c9d156461cfb4ba4eb9ac585fb83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40397bf5dd3c229416f83b162ad9de3') in 0.018282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlA04.mat
+  artifactKey: Guid(d9f3290329465474185a6036eea00d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlA04.mat using Guid(d9f3290329465474185a6036eea00d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27273e51b884dccb30964cd25061819f') in 0.015183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlC05.mat
+  artifactKey: Guid(c049c7be9f19d5342a9ef3b9f4bee68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlC05.mat using Guid(c049c7be9f19d5342a9ef3b9f4bee68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78195f402c6f2489cbe6b4d9671edc9c') in 0.019519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairD02.mat
+  artifactKey: Guid(ad314924184be5045a33636522983cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairD02.mat using Guid(ad314924184be5045a33636522983cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f39f1d9daab7b3c491762bd2644810a') in 0.019853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlD03.mat
+  artifactKey: Guid(6e31ea6e91008e8499d2a586986f1bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlD03.mat using Guid(6e31ea6e91008e8499d2a586986f1bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06038f184027f8247e59fff8a8af897e') in 0.015107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairB01.mat
+  artifactKey: Guid(53668cc890b7b8249b604dc0acbc0c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairB01.mat using Guid(53668cc890b7b8249b604dc0acbc0c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a598e298608d40cb3c7c37f557f141') in 0.019857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairA02.mat
+  artifactKey: Guid(34aaa448634cdb7429c6b154d2d4f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairA02.mat using Guid(34aaa448634cdb7429c6b154d2d4f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340a16a231da306f3d0735f3f93ffa92') in 0.020519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairB03.mat
+  artifactKey: Guid(56fd2a6d3831c594daa9fdb30c646a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairB03.mat using Guid(56fd2a6d3831c594daa9fdb30c646a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c6540c8eb0950c79c95f0e4708a228') in 0.019141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlC04.mat
+  artifactKey: Guid(d41b3b7c0121b054faff0566180f39b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlC04.mat using Guid(d41b3b7c0121b054faff0566180f39b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1456337a99f660f55a9f3a17a464f4') in 0.020387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairG03.mat
+  artifactKey: Guid(c50f17f654991074193e131a1d709a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairG03.mat using Guid(c50f17f654991074193e131a1d709a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e1c2c2dc21b1c3b82f7dfb942decaa') in 0.020984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairD01.mat
+  artifactKey: Guid(564794ef5549e0c4a839694dabbcb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGHairD01.mat using Guid(564794ef5549e0c4a839694dabbcb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee1b3287e1b32ebb0859b6c4510b36d') in 0.015540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlD04.mat
+  artifactKey: Guid(07b5ae76cf6f9854987d54cfc93d0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlD04.mat using Guid(07b5ae76cf6f9854987d54cfc93d0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2a6e763979070691817de3ea06029f') in 0.021367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlB03.mat
+  artifactKey: Guid(60903300460104e46946298c7f376a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/skin & hairs/TKGirlB03.mat using Guid(60903300460104e46946298c7f376a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8276492a9c690bf12534d825b594a049') in 0.019167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.850010 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/eyes & teeth/eye2.mat
+  artifactKey: Guid(8800e2d89480d0544b1d426f88e6f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/eyes & teeth/eye2.mat using Guid(8800e2d89480d0544b1d426f88e6f8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2dc2ec3de0594a9c3a482093e6d28e') in 0.017219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/eyes & teeth/TKteeth01.mat
+  artifactKey: Guid(0b2166dd8496fbc4cb471b1492cb21d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/eyes & teeth/TKteeth01.mat using Guid(0b2166dd8496fbc4cb471b1492cb21d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153ea3f4635641effe8b02d47308140c') in 0.013470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/eyes & teeth/TKteeth03.mat
+  artifactKey: Guid(8fc8aed55a6a6af4f954d0c55f42e8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/eyes & teeth/TKteeth03.mat using Guid(8fc8aed55a6a6af4f954d0c55f42e8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a304b52aca96069ac31303b1f4876bb6') in 0.008067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/eyes & teeth/TKteeth02.mat
+  artifactKey: Guid(19fc86b9a97ea3840ac8cf91feca420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/eyes & teeth/TKteeth02.mat using Guid(19fc86b9a97ea3840ac8cf91feca420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96d9b32126436f2e7cba83501536b87') in 0.009194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.726830 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA02.mat
+  artifactKey: Guid(d27d81275266470428c2fdfebbf9b07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA02.mat using Guid(d27d81275266470428c2fdfebbf9b07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ee368cd991f6130bea8f3b90ba7d2e') in 0.026788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA06.mat
+  artifactKey: Guid(695c102f187933d4581871bfff7564bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA06.mat using Guid(695c102f187933d4581871bfff7564bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d43351f4afd256a3f9f702e856bc24') in 0.043862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA08.mat
+  artifactKey: Guid(d35df8a691c6581458d763945db593c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA08.mat using Guid(d35df8a691c6581458d763945db593c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8d16095ffd8835f382cdd069631dd2') in 0.020530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA10.mat
+  artifactKey: Guid(32f7df89b7e5431449b375b429530b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA10.mat using Guid(32f7df89b7e5431449b375b429530b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933c9bce64d6adac0e3aeae6c5f45d21') in 0.045804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA07.mat
+  artifactKey: Guid(86154af0e8254c24094b741683dfe4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA07.mat using Guid(86154af0e8254c24094b741683dfe4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5564d6187b102bb153c12d7bf6febfbf') in 0.026219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA04.mat
+  artifactKey: Guid(9d9ebbb074dcd8042a320acfb82b25e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetA/TKFeetA04.mat using Guid(9d9ebbb074dcd8042a320acfb82b25e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80ec69018bd258ac98304bd8bf43f7f') in 0.029947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.875508 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/hats/TKHatA02.mat
+  artifactKey: Guid(ae0bb8595f93e994fb599e16434c4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/hats/TKHatA02.mat using Guid(ae0bb8595f93e994fb599e16434c4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a3fc3030e4c8bf3bb1f3b738668a42') in 0.024715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/hats/TKHatB02.mat
+  artifactKey: Guid(512ebd2d7a5ad27408c325cc663945bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/hats/TKHatB02.mat using Guid(512ebd2d7a5ad27408c325cc663945bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4611b6f602d49957f50ebaf1db8b3d29') in 0.033981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/hats/TKHatA03.mat
+  artifactKey: Guid(f4eac7f802a7dc34e9eb35375e3c3452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/hats/TKHatA03.mat using Guid(f4eac7f802a7dc34e9eb35375e3c3452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293821bc3e321a86482693fa0d84e6ab') in 0.013403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/hats/TKHatB04.mat
+  artifactKey: Guid(3006b12dc5da67d4993083703c3b8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/hats/TKHatB04.mat using Guid(3006b12dc5da67d4993083703c3b8781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cfee0d9a758e2c5b350efbb6e8ef9b') in 0.010489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/hats/TKHatA04.mat
+  artifactKey: Guid(f3d41cac1327c6d469c9f260eb7deff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/hats/TKHatA04.mat using Guid(f3d41cac1327c6d469c9f260eb7deff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b001454a3e75e50052df0c6caa9077') in 0.015495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.640187 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress02.mat
+  artifactKey: Guid(d4c388c16c59fab4995a352b54a65770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress02.mat using Guid(d4c388c16c59fab4995a352b54a65770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213bc6fe0be92422b30df05bf5a7d1cb') in 0.034668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress07.mat
+  artifactKey: Guid(df9f8bc139620834cac7660b49a1eff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress07.mat using Guid(df9f8bc139620834cac7660b49a1eff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1e6973b7c1d6665d1de782deca86ea') in 0.032909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress18.mat
+  artifactKey: Guid(99336be229f118b41b8ffd545b2b615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress18.mat using Guid(99336be229f118b41b8ffd545b2b615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfba3ff83a447ce32869ff58a09ba608') in 0.015143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress05.mat
+  artifactKey: Guid(4deec1da444d03a45bf0f784f20d8909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress05.mat using Guid(4deec1da444d03a45bf0f784f20d8909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6bd6cac4728f9078550ff8b7604efb') in 0.009146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress06.mat
+  artifactKey: Guid(1a7f78942e274e64181577f7a09cb922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress06.mat using Guid(1a7f78942e274e64181577f7a09cb922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2d3fd13f915c29a112fd5f8dcafd6b') in 0.016388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress14.mat
+  artifactKey: Guid(549895ec23e802344ad251d3ced4bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress14.mat using Guid(549895ec23e802344ad251d3ced4bd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15da9b5e6863ffa55ef006a7b4c7964a') in 0.014972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress12.mat
+  artifactKey: Guid(00936c95bb78f474790806173c9087f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress12.mat using Guid(00936c95bb78f474790806173c9087f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c59626d63c96c0386f0a971c5882da5') in 0.008128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress17.mat
+  artifactKey: Guid(2fd00c06e65273443ab6d81daee396a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress17.mat using Guid(2fd00c06e65273443ab6d81daee396a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9b0bd7f854384a0e82e90719487532') in 0.017009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/dress/TKDress10.mat
+  artifactKey: Guid(a3c56d0d7b18d354ba1642d3d5f80552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/dress/TKDress10.mat using Guid(a3c56d0d7b18d354ba1642d3d5f80552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e2d0f9ccb8d70c9282464328cbac2f') in 0.009128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.480464 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs02.mat
+  artifactKey: Guid(edab1ef734f43f0458998e52ac8b468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs02.mat using Guid(edab1ef734f43f0458998e52ac8b468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffdcf100e7574b7094ebe95a45d4bc8') in 0.023778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs13.mat
+  artifactKey: Guid(119daa1d91fd6f946a9eb93be3fc1cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs13.mat using Guid(119daa1d91fd6f946a9eb93be3fc1cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb135693269f4acc0fec07794a18b1a') in 0.015351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs17.mat
+  artifactKey: Guid(8442c19a9bd65e243b4ff2bdef336fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs17.mat using Guid(8442c19a9bd65e243b4ff2bdef336fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb21a2736505281c0ae6a88ab7a0e93d') in 0.013392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs19.mat
+  artifactKey: Guid(018f6ee77a87cd746ade12e6d2a6f7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs19.mat using Guid(018f6ee77a87cd746ade12e6d2a6f7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b55a7c59d91aa88dad5ee6ddabb44b1') in 0.012154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs06.mat
+  artifactKey: Guid(65381b5e8ff45844a90cdd05620c05bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs06.mat using Guid(65381b5e8ff45844a90cdd05620c05bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7fd00712c45bf8881fd0c1eced8bf4') in 0.009123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs04.mat
+  artifactKey: Guid(26febe61419a8ba4689d269764bd8304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs04.mat using Guid(26febe61419a8ba4689d269764bd8304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0344e4f45e7fb9a1c6dc4653d2fd0d9') in 0.009452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs11.mat
+  artifactKey: Guid(f9fdcea82d4a49e47af20d2ae39b30b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs11.mat using Guid(f9fdcea82d4a49e47af20d2ae39b30b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561b190d9dc483dd82bd64d021c21287') in 0.009140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs18.mat
+  artifactKey: Guid(34fd2ecc5fd2728458ce378435673554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs18.mat using Guid(34fd2ecc5fd2728458ce378435673554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f0d0479f7ebbb3dcc078a538c704fb') in 0.009258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs21.mat
+  artifactKey: Guid(92384a1ee425858458fc3c9c41850e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs21.mat using Guid(92384a1ee425858458fc3c9c41850e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b02dd10422459d8d22010d0a8046ff3') in 0.009325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs10.mat
+  artifactKey: Guid(8bcdc9b411165f4498ac775e3b4c31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs10.mat using Guid(8bcdc9b411165f4498ac775e3b4c31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e41b7c01fecaf59273dd2ec38d27f8') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs07.mat
+  artifactKey: Guid(3f0c4d15778615a43b3f4fc13d4d80d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/legs/TKLegs07.mat using Guid(3f0c4d15778615a43b3f4fc13d4d80d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb4825fa1c1a5fe74642b9b0342cfcd') in 0.010988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.903912 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairA02.mat
+  artifactKey: Guid(42ed0f4abdd1b5c4b8f7179db0c429dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairA02.mat using Guid(42ed0f4abdd1b5c4b8f7179db0c429dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6590124a5af9b5fd3bb41dcf264b0461') in 0.035381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairB03.mat
+  artifactKey: Guid(b28dc1ca5def7714e881dc7661b6f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairB03.mat using Guid(b28dc1ca5def7714e881dc7661b6f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317ab5bde5531f8dc343b30bc8a1e3c4') in 0.041567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyC05.mat
+  artifactKey: Guid(14392761d93e3a24aab2f69cedc557a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyC05.mat using Guid(14392761d93e3a24aab2f69cedc557a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87465880a0d05b4c8f784cf1010ed8f2') in 0.045490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairE02.mat
+  artifactKey: Guid(6698831a72e6ea5489bb11b4ad2c4704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairE02.mat using Guid(6698831a72e6ea5489bb11b4ad2c4704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494d93e9e8ba9b136e8b2911c2213200') in 0.025533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairG01.mat
+  artifactKey: Guid(b41099819ade7b146a75401324e91e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairG01.mat using Guid(b41099819ade7b146a75401324e91e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0617d27211d2476336efb9bea6bd2c99') in 0.022283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairD02.mat
+  artifactKey: Guid(7760c07b10c56e24397b34107432778d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairD02.mat using Guid(7760c07b10c56e24397b34107432778d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edbac1a0b9489fab2be9c2569471752') in 0.023760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyE04.mat
+  artifactKey: Guid(fcf62a1078783c34092293cf53204b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyE04.mat using Guid(fcf62a1078783c34092293cf53204b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7303a789aa59b26e7fdf21a3180af1f') in 0.046137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyE03.mat
+  artifactKey: Guid(df7c673d632a69341b36b374800d7d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyE03.mat using Guid(df7c673d632a69341b36b374800d7d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde32cbf54843936867e04a5cbdf590c') in 0.023956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyC04.mat
+  artifactKey: Guid(8c9c8b577d24ed14b88011a4c7e41301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyC04.mat using Guid(8c9c8b577d24ed14b88011a4c7e41301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90aa4b25d11ce11cd8cd5ab337ae81') in 0.021302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairD01.mat
+  artifactKey: Guid(7b3a43dbde377154e8bc4108e378ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairD01.mat using Guid(7b3a43dbde377154e8bc4108e378ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1843e0d33293782144139deb9e3dd86') in 0.014408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyE05.mat
+  artifactKey: Guid(3a9a701a7ced0a14ba4a43c81a4344dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyE05.mat using Guid(3a9a701a7ced0a14ba4a43c81a4344dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e89a3088e27ec23be9519598edd7e7') in 0.025976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyB01.mat
+  artifactKey: Guid(56e4f34781a010140b595aa1e427d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyB01.mat using Guid(56e4f34781a010140b595aa1e427d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6b239c332dadfbd1cd20ff2e70b332') in 0.015024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairB01.mat
+  artifactKey: Guid(51597144e10227e4e942f31bba41bb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairB01.mat using Guid(51597144e10227e4e942f31bba41bb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf688aed5bc14df26f607b9829eea963') in 0.010250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyB03.mat
+  artifactKey: Guid(74cd6d62167da7c478e3f02ccab848c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyB03.mat using Guid(74cd6d62167da7c478e3f02ccab848c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caa37dad8310e6027056ddb03062369') in 0.020045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyD05.mat
+  artifactKey: Guid(053149e8d5c1a394bae0ee675c614e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyD05.mat using Guid(053149e8d5c1a394bae0ee675c614e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc469e3111aba147e422208b4a36ee0') in 0.023881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyD03.mat
+  artifactKey: Guid(b3acfd15456a3fd4e8967c477d8b154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyD03.mat using Guid(b3acfd15456a3fd4e8967c477d8b154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b71d26eab15083d5a241bead7024b96') in 0.020506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairG02.mat
+  artifactKey: Guid(59e882e66eedab546a75fcdd32050012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairG02.mat using Guid(59e882e66eedab546a75fcdd32050012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3001f500b2ec3fbccb9851a9cc82486b') in 0.020394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyB02.mat
+  artifactKey: Guid(4a15c399e51bfb64687a0e5c1745664f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyB02.mat using Guid(4a15c399e51bfb64687a0e5c1745664f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a197e53ef0978f815a28fcfec359cf2f') in 0.019605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairE01.mat
+  artifactKey: Guid(eb2d566886654c048921f2df977f65c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairE01.mat using Guid(eb2d566886654c048921f2df977f65c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27872cd0a0f911710d99963bfbd6bd29') in 0.013832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairD03.mat
+  artifactKey: Guid(f767c60f3e436f046b219d2c7fa78229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBHairD03.mat using Guid(f767c60f3e436f046b219d2c7fa78229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5979963dfbf5ee58d44fc3816640f59') in 0.021968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyE01.mat
+  artifactKey: Guid(ad913950180acf64cab68bd99580e454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/BOY/skin & hairs/TKBoyE01.mat using Guid(ad913950180acf64cab68bd99580e454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db713516d084e5f4d0c396d7688fbf5b') in 0.014410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.487888 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt02.mat
+  artifactKey: Guid(6e65ed405dc8d4746b14a094b983182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt02.mat using Guid(6e65ed405dc8d4746b14a094b983182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0decb1ee0987dd0ef38668b1d1d8757b') in 0.031862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt05.mat
+  artifactKey: Guid(6b2cb9f61576c924292a07baeb5170b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt05.mat using Guid(6b2cb9f61576c924292a07baeb5170b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420ba6049fdeeddde339c27d2d339485') in 0.040010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt12.mat
+  artifactKey: Guid(86aea7b500d151b48862f4219ecbf222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt12.mat using Guid(86aea7b500d151b48862f4219ecbf222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405bbac457ce6cccc283b88c8641e2d3') in 0.053381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt08.mat
+  artifactKey: Guid(bcf11e504c67feb41b0f278bd24b2528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt08.mat using Guid(bcf11e504c67feb41b0f278bd24b2528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c90ecee208086bad4590bfbaee7709') in 0.019869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt14.mat
+  artifactKey: Guid(d900eb163c22b224ca8198f50f49b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt14.mat using Guid(d900eb163c22b224ca8198f50f49b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab62317d109f3dff48f6c37678435ef') in 0.015126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt04.mat
+  artifactKey: Guid(65ad3630b1a5926408a9a1dbdfb238f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt04.mat using Guid(65ad3630b1a5926408a9a1dbdfb238f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82f11a33ad85fed9d66d4dd694123e6') in 0.009775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt11.mat
+  artifactKey: Guid(4886d0349257b1043be28d17baa887eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/tshirt/TKTshirt11.mat using Guid(4886d0349257b1043be28d17baa887eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed42a93a94a669c8cd5e49feba39512') in 0.010554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.449445 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB02.mat
+  artifactKey: Guid(40620cb48e6112348ae1877a8dddf3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB02.mat using Guid(40620cb48e6112348ae1877a8dddf3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c31d1635f97346392db3e78ee47521') in 0.019608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB11.mat
+  artifactKey: Guid(974608810760c0a46b9586434f538fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB11.mat using Guid(974608810760c0a46b9586434f538fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620b026254db5c38b099be4fd1f591a4') in 0.020494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB12.mat
+  artifactKey: Guid(0c004b25df48f8641ae5c9de3f98ef21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB12.mat using Guid(0c004b25df48f8641ae5c9de3f98ef21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b085b6e284a5bdb2589031d24a9936') in 0.012072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB10.mat
+  artifactKey: Guid(7d79524ab2ada36449b7d2a97da2b9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB10.mat using Guid(7d79524ab2ada36449b7d2a97da2b9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593f81ae4fbc613c44003b9380834219') in 0.054755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB03.mat
+  artifactKey: Guid(6e493ae2af7522d42bf15e0b9ee8cb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB03.mat using Guid(6e493ae2af7522d42bf15e0b9ee8cb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00c6ec50cdcdb8c2c90c8ba2452dff7') in 0.034314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB08.mat
+  artifactKey: Guid(7275213347a2b934e914e6586e2e87c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/feetB/TKFeetB08.mat using Guid(7275213347a2b934e914e6586e2e87c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372f5ecf8274feae3de2b18d93bedc14') in 0.019796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.807688 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesA02.mat
+  artifactKey: Guid(a52891c08d478f947b3b646abff829f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesA02.mat using Guid(a52891c08d478f947b3b646abff829f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffb4d146112c2de57568cbd5e8d379b') in 0.017305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesD03.mat
+  artifactKey: Guid(0ea16b7759ea300468104fc159050791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesD03.mat using Guid(0ea16b7759ea300468104fc159050791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f994e97fb1c3349f9f875eed82ade29e') in 0.015512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesE03.mat
+  artifactKey: Guid(1147bbb06a41bc944895f8be9712290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesE03.mat using Guid(1147bbb06a41bc944895f8be9712290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdc3441a2d14ece38786e9a004b7f25') in 0.017225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesF02.mat
+  artifactKey: Guid(6be742bd4d774eb42aaed02d9329353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesF02.mat using Guid(6be742bd4d774eb42aaed02d9329353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd14fe0a9eb9af1fc6860d61604f4c26') in 0.016897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesC03.mat
+  artifactKey: Guid(31001b052cae8534699945ece7f430e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesC03.mat using Guid(31001b052cae8534699945ece7f430e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c07f6f2ee64740c65e1d19ec90b240') in 0.019123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesB03.mat
+  artifactKey: Guid(3be3d020aff6a4b4696917ff0630e60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesB03.mat using Guid(3be3d020aff6a4b4696917ff0630e60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78ebced9a646af51aed2fcdb830177a') in 0.017547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesD02.mat
+  artifactKey: Guid(d3774e01a08d81d4eaca48a7d2a91910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesD02.mat using Guid(d3774e01a08d81d4eaca48a7d2a91910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c226ddbd455cd627c68737e96aa4eca5') in 0.020476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesF03.mat
+  artifactKey: Guid(f7d119eae9309fd429027871a27c7d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesF03.mat using Guid(f7d119eae9309fd429027871a27c7d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62e45c8f327bf6c925c8144302310bc') in 0.018056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/glasses/glassesF01.mat
+  artifactKey: Guid(8748001315e71d34e859cc468314916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/glasses/glassesF01.mat using Guid(8748001315e71d34e859cc468314916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b5729579ae060753c79a7703ff2000') in 0.016797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.471371 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/sweater/TKSweater02.mat
+  artifactKey: Guid(63c47c8f7f387974a994f3c52efeb4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/sweater/TKSweater02.mat using Guid(63c47c8f7f387974a994f3c52efeb4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba78ac84d98c15559b20de0498c24a7') in 0.022682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/sweater/TKSweater03.mat
+  artifactKey: Guid(a60a2b0985f910e4385dfec7c86d435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/sweater/TKSweater03.mat using Guid(a60a2b0985f910e4385dfec7c86d435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be9779f4e938babf13ab43fa703a1a0') in 0.036066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/sweater/TKSweater07.mat
+  artifactKey: Guid(99c6cde7a81777047a358a928dccb546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/sweater/TKSweater07.mat using Guid(99c6cde7a81777047a358a928dccb546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b84cdd085b847470e6cec1d909b6f0') in 0.042147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/sweater/TKSweater04.mat
+  artifactKey: Guid(407423c3fd300334d9794c2b4d46f0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/sweater/TKSweater04.mat using Guid(407423c3fd300334d9794c2b4d46f0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad635cc0c05b711d836fb759ea5c72b') in 0.009819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.480473 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt02.mat
+  artifactKey: Guid(21012938a26eb184b84ae82bc2ed3ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt02.mat using Guid(21012938a26eb184b84ae82bc2ed3ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef5ba27c0358c9a248d8ac930719d7a') in 0.011695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt03.mat
+  artifactKey: Guid(c8f96b3f36a111241905df83837e6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt03.mat using Guid(c8f96b3f36a111241905df83837e6e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4706ab0df151feaa5141d096da3e6441') in 0.018774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt05.mat
+  artifactKey: Guid(dfb0b56fc7abd2a44bcddcfba6389668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt05.mat using Guid(dfb0b56fc7abd2a44bcddcfba6389668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62259e996e9c2ff05d854034f0d53e6b') in 0.014347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt10.mat
+  artifactKey: Guid(8fb5ed6f8568ef44c974eaea9656fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt10.mat using Guid(8fb5ed6f8568ef44c974eaea9656fe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e508c531ded17b01e97190bd6ac956') in 0.012355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt13.mat
+  artifactKey: Guid(e2a8918b7d69a074dab70c87483c447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt13.mat using Guid(e2a8918b7d69a074dab70c87483c447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c50ff5bec934d5849c455fb362d117') in 0.017060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt07.mat
+  artifactKey: Guid(8f054a08476c0fb41a30fd158c1340d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/COMMON/shirt/TKShirt07.mat using Guid(8f054a08476c0fb41a30fd158c1340d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8bb4bdad795a027a64b2a4845336f9') in 0.016932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.224365 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/feetC/TKFeetC02.mat
+  artifactKey: Guid(14e22e01db5b88448a2c21fcb913f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/feetC/TKFeetC02.mat using Guid(14e22e01db5b88448a2c21fcb913f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c86a24fefd3eaed4e09db5985c2c27') in 0.018111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/feetC/TKFeetC03.mat
+  artifactKey: Guid(9277ffe354fc379488bcec980f6a7cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/feetC/TKFeetC03.mat using Guid(9277ffe354fc379488bcec980f6a7cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b670e99296b8ff7273aee7fc1eaf7c9') in 0.020152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/feetC/TKFeetC07.mat
+  artifactKey: Guid(5cafece0eefe344419649c65d7760ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/feetC/TKFeetC07.mat using Guid(5cafece0eefe344419649c65d7760ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4b45afcaef6176d25482dfc64fd006') in 0.019192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ToonKids/Models/Materials/GIRL/feetC/TKFeetC09.mat
+  artifactKey: Guid(aa0f3aa1afd33244b90d0034d1bb8fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Models/Materials/GIRL/feetC/TKFeetC09.mat using Guid(aa0f3aa1afd33244b90d0034d1bb8fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d36eb45b564c059142b9decef6765c0') in 0.015853 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005916 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.812 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1813ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (1457ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (732ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (504ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5528 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 6320.
+Memory consumption went from 232.6 MB to 231.9 MB.
+Total: 5.715400 ms (FindLiveObjects: 0.477000 ms CreateObjectMapping: 0.392800 ms MarkObjects: 4.190700 ms  DeleteObjects: 0.653300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1499ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1262ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (695ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5529 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 6324.
+Memory consumption went from 232.6 MB to 231.9 MB.
+Total: 6.733300 ms (FindLiveObjects: 0.603900 ms CreateObjectMapping: 0.530500 ms MarkObjects: 5.262400 ms  DeleteObjects: 0.335400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (425.1 KB). Loaded Objects now: 6324.
+Memory consumption went from 117.0 MB to 116.6 MB.
+Total: 203.885900 ms (FindLiveObjects: 0.683500 ms CreateObjectMapping: 2.746500 ms MarkObjects: 200.039900 ms  DeleteObjects: 0.413300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (428.4 KB). Loaded Objects now: 6324.
+Memory consumption went from 115.7 MB to 115.3 MB.
+Total: 4.783000 ms (FindLiveObjects: 0.475300 ms CreateObjectMapping: 0.384500 ms MarkObjects: 3.471700 ms  DeleteObjects: 0.450800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006802 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1599ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1328ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5529 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (426.9 KB). Loaded Objects now: 6328.
+Memory consumption went from 228.9 MB to 228.5 MB.
+Total: 4.972900 ms (FindLiveObjects: 0.657300 ms CreateObjectMapping: 0.610000 ms MarkObjects: 3.368800 ms  DeleteObjects: 0.335900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6095.615311 seconds.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(19eef479f6743cd42b22da3acda969ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Target.prefab using Guid(19eef479f6743cd42b22da3acda969ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccfa3f6369ff0688525d1b8b7b96a46') in 1.506110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Prefabs/TransparentSphere.prefab
+  artifactKey: Guid(ef62d816e70d87d4d83a6d158ac49724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TransparentSphere.prefab using Guid(ef62d816e70d87d4d83a6d158ac49724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b30e88d483c22245f828e785d3a87b') in 0.023935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.270088 seconds.
+  path: Assets/Prefabs/Balloons/Balloon.prefab
+  artifactKey: Guid(7ffcb6583d5d3e748ad1edaafe47b104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Balloons/Balloon.prefab using Guid(7ffcb6583d5d3e748ad1edaafe47b104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15ecf293a6f0c165dd4a206ccc414f6') in 0.081507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Balloons/ConfettiPiece.prefab
+  artifactKey: Guid(b3fde3d9e8e9a3d449182d47dbc7e528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Balloons/ConfettiPiece.prefab using Guid(b3fde3d9e8e9a3d449182d47dbc7e528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f000f0235c40b8ce41164f5222f95cc') in 0.044249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Balloons/ConfettiExplosionParticleSystem.prefab
+  artifactKey: Guid(7ebe0604578b723418deef5d32beffa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Balloons/ConfettiExplosionParticleSystem.prefab using Guid(7ebe0604578b723418deef5d32beffa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e8cda0c0332f8eb5ab6508b4a037ed') in 0.318756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.101296 seconds.
+  path: Assets/Prefabs/Tests/AnswerRight.prefab
+  artifactKey: Guid(e5fa1a62a4f47d144bb8f37347f8ff5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tests/AnswerRight.prefab using Guid(e5fa1a62a4f47d144bb8f37347f8ff5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e8ff1aab9eec21babf70619275b180') in 0.043533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Tests/BlenderMonkey 1.fbx
+  artifactKey: Guid(685faba6626cbf1469e0f2aa7eb0ba79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tests/BlenderMonkey 1.fbx using Guid(685faba6626cbf1469e0f2aa7eb0ba79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e1da56514efba9e7ed5a275fbe9090') in 0.667380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 528.289472 seconds.
+  path: Packages/com.unity.xr.arcore/Tests/Editor/Assets/TestReferenceImageLibrary.asset
+  artifactKey: Guid(c33765148919746ecbe8e10cceb19107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arcore/Tests/Editor/Assets/TestReferenceImageLibrary.asset using Guid(c33765148919746ecbe8e10cceb19107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e21df8a46674b913deb8b378bf19070') in 0.122126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.213121 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKBoyB.prefab
+  artifactKey: Guid(4d348334a68165f44822e8ea88b0cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKBoyB.prefab using Guid(4d348334a68165f44822e8ea88b0cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f91f8e58e9678f9a7acbab9459a81f') in 4.154287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlC.prefab
+  artifactKey: Guid(d15516e27297cbf4b801af0a206b8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlC.prefab using Guid(d15516e27297cbf4b801af0a206b8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bcc63a08ed10068adb5845f52b90d3') in 2.725783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlB.prefab
+  artifactKey: Guid(ac651e72850192c4cb2f7d8bab2d0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlB.prefab using Guid(ac651e72850192c4cb2f7d8bab2d0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046b14a44a2cfeeab062efbba73e621b') in 2.289629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlE.prefab
+  artifactKey: Guid(7cbab574193cacc419ea12d4aa87841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlE.prefab using Guid(7cbab574193cacc419ea12d4aa87841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bece5b0e862458642cd5f422a93530be') in 2.285565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKBoyE.prefab
+  artifactKey: Guid(203dfafbf0b212a45a015e7cfd701195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKBoyE.prefab using Guid(203dfafbf0b212a45a015e7cfd701195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbfa5314e138b4e4520c05172be3ba4') in 1.919266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.189278 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKBoyB.prefab
+  artifactKey: Guid(4d348334a68165f44822e8ea88b0cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKBoyB.prefab using Guid(4d348334a68165f44822e8ea88b0cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1a3f1332fb6d5822d0be91975bfb8e') in 1.759671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlC.prefab
+  artifactKey: Guid(d15516e27297cbf4b801af0a206b8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlC.prefab using Guid(d15516e27297cbf4b801af0a206b8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75adad05ec0d6715b35efcfa2ae4be47') in 2.309639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKGirlB.prefab
+  artifactKey: Guid(ac651e72850192c4cb2f7d8bab2d0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKGirlB.prefab using Guid(ac651e72850192c4cb2f7d8bab2d0b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365a521f869db2f8596df1d0bd9851ba') in 2.447929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKBoyD.prefab
+  artifactKey: Guid(bfe51386819bf394a9e639b573764a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKBoyD.prefab using Guid(bfe51386819bf394a9e639b573764a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880c4f60066d95db830faf116b82d8cc') in 1.901652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ToonKids/Prefabs/Players/3D/TKBoyE.prefab
+  artifactKey: Guid(203dfafbf0b212a45a015e7cfd701195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonKids/Prefabs/Players/3D/TKBoyE.prefab using Guid(203dfafbf0b212a45a015e7cfd701195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ee60bf254b5ca815752478301bac18') in 1.846635 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006298 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity\SmartBooksAR-ApplicationRepo\SmartBooksAR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1430ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (1094ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5528 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (420.3 KB). Loaded Objects now: 6393.
+Memory consumption went from 229.6 MB to 229.2 MB.
+Total: 4.665500 ms (FindLiveObjects: 0.499300 ms CreateObjectMapping: 0.388500 ms MarkObjects: 3.502300 ms  DeleteObjects: 0.274400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

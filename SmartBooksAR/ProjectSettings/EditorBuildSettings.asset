@@ -5,30 +5,33 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HomePage/Home.unity
     guid: a16dddce994028645972a1d97e0642ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HomePage/Mode Select.unity
     guid: 132b93d2fde39d34c9104efd58541d62
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Start/Start.unity
     guid: 29e6f6e8e30d4da4c8eb1e61a1cbc32d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Balloon Popping/Balloon Popping.unity
     guid: 7f96bb57e17e58444bd5b5573995e26f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Comparing and Ordering/Comparing And Ordering.unity
     guid: 8c60d259c48657e4fb601ea86c4e95a2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Hole In The Wall/Hole In The Wall.unity
     guid: fd4cd54e73194b148aa1ccccec66732d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PlaceValue/PlaceValue.unity
     guid: 0a6231639533c8c499a6c0ef05855a71
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TrueFalse/TrueFalse.unity
     guid: f9fa262ab0abb6a43aa54640d8c2be94
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/Tutorial.unity
+    guid: 05a6360ddb73e93418988537deaac100
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e0c0863b87765f64eae2c0ac28fd3ffe,
       type: 2}
